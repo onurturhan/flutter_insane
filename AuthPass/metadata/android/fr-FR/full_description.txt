@@ -1,0 +1,16 @@
+<p>Conservez facilement et en toute sécurité la trace de tous vos mots de passe !</p>
+
+<p>AuthPass est un gestionnaire de mots de passe autonome prenant en charge le format Keepass (kdbx), populaire et éprouvé. 
+Stockez vos mots de passe, partagez-les sur tous vos appareils et trouvez-les facilement chaque fois que vous avez besoin de vous connecter.</p>
+
+<ul>
+<li>Tous vos mots de passe au même endroit.<li>
+<li>Générez des mots de passe sécurisés aléatoires pour chacun de vos comptes.</li>
+<li>Déverrouillage rapide sécurisé avec verrou biométrique (Android uniquement)</li>
+<li>Gardez une trace de vos comptes sur le Web.</li>
+<li>Appli disponible sous Mac, iOS, Android, Linux et Windows.</li>
+<li>Code Open Source, disponible sur https://github. om/authpass/authpass/</li>
+<li>Contributions bienvenues et encouragées ;-) (en constante recherche de développeurs, traducteurs, rédacteurs de documentation, designer d'interface, etc. :) ), rejoignez notre canal discord.</li>
+</ul>
+
+<p>Rejoignez notre canal discord sur https://authpass. pp/go/discord - En cas de problèmes, de retour, etc. ou simplement pour flâner.</p>

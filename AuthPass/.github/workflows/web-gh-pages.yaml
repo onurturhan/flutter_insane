@@ -1,0 +1,45 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - stable
+      - beta
+      - web-beta
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v1
+        with:
+          channel: 'dev'
+
+      - name: Postdeploy
+        env:
+          BLACKBOX_SECRET: ${{ secrets.BLACKBOX_SECRET_KEY }}
+        run: authpass/_tools/postdeploy.sh
+      - name: ci-install-deps
+        run: "./authpass/_tools/ci-install-deps.sh linux"
+      - name: Build
+        id: build
+        env:
+          GIT_AUTHOR_NAME: 'Github Action CI'
+          GIT_AUTHOR_EMAIL: 'herbert.github.ci@codeux.design'
+          GIT_COMMITTER_NAME: 'Github Action CI'
+          GIT_COMMITTER_EMAIL: 'herbert.github.ci@codeux.design'
+        #        AUTHPASS_SKIP_FASTLANE: ${{ github.ref != 'refs/heads/master' }}
+        run: "./authpass/_tools/ci-release.sh web"
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./authpass/build/web
+          allow_empty_commit: true
+          cname: web.authpass.app
+

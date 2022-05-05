@@ -1,0 +1,17 @@
+<p>Lacak semua Kata Sandi Anda dengan mudah dan aman!</p>
+
+<p> AuthPass adalah sebuah pengelola kata sandi tunggal dengan dukungan format Keepass (kdbx) yang terbukti dan populer.
+Simpan sandi Anda, bagikan, dan temukan sandi anda dengan mudah kapan pun Anda perlu login. </p>
+
+<ul>
+<li> Akses semua sandi Anda di satu tenpat. <li>
+<li> Buat sandi aman secara acak untuk setiap akun Anda. </li>
+<li> Buka Cepat dengan pengaman biometrik (saat ini hanya android) </li>
+<li> Lacak akun Anda di seluruh web. </li>
+<li> Aplikasi tersedia untuk Mac, iOS, Android, Linux dan Windows. </li>
+<li> "Open Source" tersedia di https://github.com/authpass/authpass/ </li>
+<li> Semua bentuk kontribusi didukung dan diterima ;-) (Sedang mencari pengembang, penerjemah, penulis dokumentasi, perancang antarmuka pengguna, dll. :)), bergabunglah dengan saluran discord kami. </li>
+</ul>
+
+<p>Bergabunglah dengan saluran Discord kami di
+https://authpass.app/go/discord Jika anda menemukan masalah, ingin memberi masukan, dll. atau hanya untuk sekedar nongkrong. </p>

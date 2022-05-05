@@ -1,0 +1,16 @@
+.DS_Store
+.dart_tool/
+lib/constants/api_secrets.dart
+key.jks
+android/key.properties
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
+.idea/
+.vscode/
+play_store_graphics/
+flutter_build_runner_command
+notes

@@ -1,0 +1,14 @@
+include: package:very_good_analysis/analysis_options.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+    prefer_single_quotes: false
+    unawaited_futures: false
+    cascade_invocations: false
+    missing_whitespace_between_adjacent_strings: false
+    library_private_types_in_public_api: false
+
+analyzer:
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true

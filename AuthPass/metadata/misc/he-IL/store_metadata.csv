@@ -1,0 +1,125 @@
+"playstore_full_description","מעקב פשוט ומאובטח אחר כל הסיסמאות שלך!
+
+AuthPass הוא מנהל סיסמאות עצמאי עם תמיכה בתצורה הנפוצה והמוכחת <strong>KeePass</strong> (kdbx 3.x וגם kdbx 4.x 🎉️). ניתן לאחסן את הסיסמאות שלך, <strong>לשתף אותן בין כל המכשירים שלך</strong> ולמצוא אותן בקלות בכל פעם שיש לך צורך להיכנס למקום כלשהו.
+
+🗄 כל הסיסמאות שלך במקום אחד.
+🧬 ניתן לייצר סיסמאות אקראיות מאובטחות לכל אחד מהחשבונות שלך.
+🔐 שחרור מהיר עם נעילה ביומטרית.
+🔍 מעקב אחר החשבונות שלך ברחבי האינטרנט.
+🖥 היישומון זמין ל־Mac,‏ iPhone,‏ iPad, טלפונים ומחשבי לוח עם Android, לינוקס ו־Windows.
+📂 פתיחה של מגוון קובצי סיסמאות בו־זמנית (למשל: אחד לעבודה, אחד לצרכים אישיים - או אפילו לשתף את קובץ הסיסמאות שלך עם עמיתים לעבודה)
+🤓 קוד מקור פתוח שזמין דרך https://github.com/authpass/authpass/‎
+✍ מילוי הסיסמאות שלך אוטומטית (Android 9+‎, תמיכה בדפדפן בלבד החל מ־Android 10+‎)
+🔦 ערכת עיצוב כהה 😎️
+
+
+<strong>=== בשליטתך המוחלטת ===</strong>
+AuthPass מאחסן את כל הסיסמאות שלך בתצורת Keepass בדיוק במקום שמתאים לך. הסיסמאות שלך לא נשלחות לשרתים שלנו. עם זאת, ב־AuthPass יש תמיכה לשמור תחת:
+
+✅️ כל ספק תוכן מקומי מ־Android
+✅️ שילוב מובנה מול Google Drive
+✅️ שילוב מובנה מול Dropbox
+✅️ תמיכה מובנית ב־WebDAV כדי לאחסן ב־NextCloud או ב־OwnCloud (ודומיהן)
+✅️ שילוב מובנה מול Microsoft OneDrive
+
+<b>=== כל התכונות זמינות, בלי פרסומות, בלי מינויים ===</b>
+כמיזם קוד פתוח אין מגבלות מלאכותיות על תכונות, אין פרסומות ואין דרישת תשלום.
+
+<strong>אנו פתוחים ומעודדים התנדבות למטרותינו</strong> 😅️ (תמיד מחפשים מפתחים, מתרגמים, כותבי תיעוד מעצבי מנשק משתמש ועוד :) ), מזמינים אותך פשוט להצטרף ל<a href=""https://authpass.app/go/discord"">ערוץ ה־discord</a> שלנו.
+
+<b>=== בפיתוח מתמיד 🛠️ ===</b>
+זה מיזם קוד פתוח שתמיד זוכה למאמצי פיתוח נרחבים ולתכונות שהולכות ומתווספות. נשמח לקבל ממך משוב דרך דוא״ל או דרך <a href=""https://github.com/authpass/authpass/issues/"">עוקב התקלות שלנו</a> בכתובת https://github.com/authpass/authpass/issues/
+
+ניתן להצטרף לקהילה שלנו דרך <a href=""https://authpass.app/go/discord"">ערוץ ה־discord</a> בכתובת https://authpass.app/go/discord
+","Google Play Store description","4000",""
+"playstore_title","AuthPass – מנהל סיסמאות תואם KeePass","Google Play Title","50",""
+"playstore_short_description","שמירה על אבטחת הסיסמאות והחשבונות שלך בכל הפלטפורמות והמכשירים שלך.","Short description in play store.","80",""
+"apple-appstore-title","AuthPass – מנהל סיסמאות","","30",""
+"apple-appstore-subtitle","סיסמה אחת, בכל המכשירים.","apple-appstore-subtitle -- Used as subtitle in Apple App Store, feel free to be creative ;-) Does not have to match english original, must just be a catchy phrase for the app store.","30",""
+"apple-appstore-description","מעקב פשוט ומאובטח אחר כל הסיסמאות שלך!
+
+AuthPass הוא מנהל סיסמאות עצמאי עם תמיכה בתצורה הנפוצה והמוכחת KeePass. ניתן לאחסן את הסיסמאות שלך, לשתף אותן בין כל המכשירים שלך ולמצוא אותן בקלות בכל פעם שיש לך צורך להיכנס למקום כלשהו.
+
+• כל הסיסמאות שלך במקום אחד.
+• ניתן לייצר סיסמאות אקראיות מאובטחות לכל אחד מהחשבונות שלך.
+• שחרור מהיר עם נעילה ביומטרית.
+• מעקב אחר החשבונות שלך ברחבי האינטרנט.
+• היישומון זמין לכל הפלטפורמות. ביניהן Mac,‏ iPhone ו־iPad.
+• פתיחה של מגוון קובצי סיסמאות בו־זמנית (למשל: אחד לעבודה, אחד לצרכים אישיים - או אפילו לשתף את קובץ הסיסמאות שלך עם עמיתים לעבודה)
+• שמירת סיסמאות חד־פעמיות קצובות בזמן לטובת אימות דו־שלבי (2FA - Two Factor Authentication).
+• צירוף קבצים בינריים לרשומות הסיסמאות שלך. (כגון קובצי זיהוי וכו׳)
+• קוד מקור פתוח שזמין דרך https://github.com/authpass/authpass/‎
+• ערכת עיצוב כהה (-;
+
+
+=== בשליטתך המוחלטת ===
+AuthPass מאחסן את כל הסיסמאות שלך בתצורת Keepass בדיוק במקום שמתאים לך. הסיסמאות שלך לא נשלחות לשרתים שלנו. עם זאת, ב־AuthPass יש תמיכה לשמור תחת:
+
+• כל ספק תוכן מקומי כגון iCloud
+• שילוב מובנה מול Google Drive
+• שילוב מובנה מול Dropbox
+• תמיכה מובנית ב־WebDAV כדי לאחסן ב־NextCloud או ב־OwnCloud (ודומיהן)
+• שילוב מובנה מול Microsoft OneDrive
+
+=== כל התכונות זמינות, בלי פרסומות, בלי מינויים ===
+כמיזם קוד פתוח אין מגבלות מלאכותיות על תכונות, אין פרסומות ואין דרישת תשלום.
+
+אנו פתוחים ומעודדים התנדבות למטרותינו :-) (תמיד מחפשים מפתחים, מתרגמים, כותבי תיעוד מעצבי מנשק משתמש ועוד :) ), מזמינים אותך פשוט להצטרף לערוץ ה־discord שלנו.
+
+=== בפיתוח מתמיד ===
+זה מיזם קוד פתוח שתמיד זוכה למאמצי פיתוח נרחבים ולתכונות שהולכות ומתווספות. נשמח לקבל ממך משוב דרך דוא״ל או דרך עוקב התקלות שלנו בכתובת https://github.com/authpass/authpass/issues/‎
+
+ניתן להצטרף לקהילה שלנו דרך ערוץ ה־discord בכתובת https://authpass.app/go/discord
+","apple-appstore-description --- see my comment, this is essentially the same as the playstore_full_description just slight modifications for apple.","4000",""
+"apple-appstore-keywords","מנהל סיסמאות,מנהל ססמאות,סיסמה,סיסמאות,ססמה,ססמאות,סיסמא,ססמא,מפתחות,הצפנה,מפתח,אחסון מפתחות,חשבונות","apple-appstore-keywords - Keywords used for searching in the apple app store. Does not have to be a 1:1 translation, choose keywords that mak sense.","100",""
+
+"microsoft-store-windows","עקוב אחרי כל הסיסמאות שלך בצורה קלה ובטוחה!
+
+AuthPass הוא מנהל סיסמאות שתומך בפורמט KeePass המוכר והפופולרי (kdbx 3.x , kdbx 4.x 🎉️) . שמור את הסיסמאות שלך, שתף אותם בין כל המכשירים ופלטפורמות שלך, ומצא אותם בקלות כשאתה צריך להתחבר לשרות.
+
+🗄 כל הסיסמאות שלך במקום אחד.
+🧬 ייצר סיסמה רנדומלית מאובטחת לכל אחד מה החשבונות שלך.
+🔍 עקוב אחרי כל החשבונות שלך.
+🖥 זמין לMac, iPhone, iPad, Android, Tablets, Linux וגם Windows.
+📂 פתח כמה קיבצי סיסמאות באותו זמן (לדוגמה אחד לעבודה, אחד אישי - או אפילו שתף סיסמאות עם אנשים בעבודה) 
+🤓 קוד פתוח זמין ב https://github.com/authpass/authpass/
+🔦 עיצוב כהה 😎️
+
+=== אתה בשליטה ===
+AuthPass שומר את הסיסמאות שלך בפורמט הפתוח של Keepass, איפה שאתה רוצה. מה שאתה עושה לא נשלח לשרת שלנו. אבל AuthPass תומך בשמירה ל:
+
+✅️ Google Drive
+✅️ Dropbox
+✅️ שמירה ל WebDAV לשמירה ב NextClou או OwnCloud (או דומים)
+✅️ Microsoft OneDrive
+
+=== פיצ'רים מלאים, ללא פרסומות, ללא תשלום ===
+פרויקט בקוד פתוח ללא חסימת פיצ'רים מלאכותית, ללא פרסומות, ללא דרישת תשלום.
+
+תרומת מתקבלת בברכה 😅️ (תמיד מחפשים מתכנתים, כותבי תיעוד, מתרגמים ואנשי UI, הצתרפו לdiscord שלנו: https://authpass.app/go/discord)
+
+=== בתהליך פיתוח 🛠️ ===
+זה פרויקט בקוד פתוח שעדיין בתהליך פיתוח, והספת פיצ'רים. נשמך לתגובות ובעיות ב https://github.com/authpass/authpass/issues/.
+
+הצתרף לפרום שלנו ב https://forum.authpass.app/
+","Windows Store listing description https://docs.microsoft.com/en-us/windows/uwp/publish/write-a-great-app-description","",""
+"microsoft-store-windows-short-descriptoin","שמור על הסיסמאות והחשבונות שלך מאובטחים בכל המכשרים והפלטפורמות. מנהל סיסמאות חינמי בקוד פתוח עם תמיכה בקבצי סיסמאות בפורמט kdbx.","short description for windows store 
+A shorter, catchy description that may be used in the top of your product’s Store listing
+Recommended length: 270 characters or fewer
+","1000",""
+"microsoft-store-windows-features","* שומר את הסיסמאות בצורה מאובטחת
+* קוד פתוח
+* תומך בקבצי KeePass סטנדרטים (kdbx)
+* סינכרון בין מכשירים עם שרותי איחסון בענן.","Short summaries of your product's key features
+Displayed as bulleted list
+Up to 20 app features
+(max 200 characters each)","",""
+"microsoft-store-windows-search-terms","* מנהל סיסמאות
+* authpass
+* kdbx
+* keepass
+* מייצר סיסמאות","search terms for the microsoft store
+
+Up to 7 search terms
+40 character limit for each search term
+No more than 21 separate words across all search terms","",""

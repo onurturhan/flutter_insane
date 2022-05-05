@@ -1,0 +1,786 @@
+{
+    "@@locale": "it",
+    "fieldUserName": "Nome Utente",
+    "@fieldUserName": {},
+    "fieldPassword": "Password",
+    "@fieldPassword": {},
+    "fieldWebsite": "Sito web",
+    "@fieldWebsite": {},
+    "fieldTitle": "Nome",
+    "@fieldTitle": {},
+    "fieldTotp": "Password monouso (varia nel tempo)",
+    "@fieldTotp": {
+        "description": "Label for fields of TOTP (Time based one time passwords)"
+    },
+    "english": "Inglese",
+    "@english": {
+        "description": "language switcher subtitle"
+    },
+    "german": "Tedesco",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "Russo",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "Ucraino",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "Lituano",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "Francese",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "Spagnolo",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "Indonesiano",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "Turco",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "Ebraico",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "italian": "italiano",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "Cinese Semplificato",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "Cinese Tradizionale",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "Portoghese, Brasiliano",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "Slovacco",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "selectKeepassFile": "AuthPass - Seleziona il File KeePass",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "selectKeepassFileLabel": "Seleziona un file KeePass ( .kdbx).",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "Crea un Nuovo File",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "Apri\nFile Locale",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "Apri File",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFrom": "Carica da {cloudStorageName}",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromRemoteUrl": "Apri kdbx da URL",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
+    "createNewKeepass": "Nuovo su KeePass?\nCrea un Nuovo Database per le tue Password",
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
+    "labelLastOpenFiles": "File recenti:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "Nessun file è stato ancora aperto.",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "Seleziona la lingua",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "Linguaggio",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "Dimensione Testo",
+    "@preferenceTextScaleFactor": {},
+    "preferenceVisualDensity": "Densità Testo",
+    "@preferenceVisualDensity": {},
+    "preferenceTheme": "Tema",
+    "@preferenceTheme": {},
+    "preferenceThemeLight": "Chiaro",
+    "@preferenceThemeLight": {},
+    "preferenceThemeDark": "Scuro",
+    "@preferenceThemeDark": {},
+    "preferenceSystemDefault": "Predefinito Di Sistema",
+    "@preferenceSystemDefault": {},
+    "preferenceDefault": "Predefinito",
+    "@preferenceDefault": {},
+    "lockAllFiles": "Blocca tutti i file aperti",
+    "@lockAllFiles": {},
+    "preferenceAllowScreenshots": "Consenti screenshot dell'app",
+    "@preferenceAllowScreenshots": {},
+    "preferenceEnableAutoFill": "Abilita riempimento automatico",
+    "@preferenceEnableAutoFill": {},
+    "dismissAutofillSuggestionBannerButton": "NASCONDI",
+    "@dismissAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+    },
+    "preferenceAutoFillDescription": "Supportato solo su Android Oreo (8.0) o versioni successive.",
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "Impostazioni",
+    "@preferenceTitle": {},
+    "aboutAppName": "AuthPass",
+    "@aboutAppName": {},
+    "aboutLinkFeedback": "Siamo aperti a qualsiasi suggerimento!",
+    "@aboutLinkFeedback": {},
+    "aboutLinkVisitWebsite": "Assicurati di visitare il nostro sito",
+    "@aboutLinkVisitWebsite": {},
+    "aboutLinkGitHub": "E supportare il progetto su GitHub",
+    "@aboutLinkGitHub": {},
+    "aboutLogFile": "File di log: {logFilePath}",
+    "@aboutLogFile": {
+        "placeholders": {
+            "logFilePath": {
+                "type": "String",
+                "example": "/Users/mustermann/log.txt"
+            }
+        }
+    },
+    "unableToLaunchUrlTitle": "Impossibile aprire l'URL",
+    "@unableToLaunchUrlTitle": {
+        "description": ""
+    },
+    "unableToLaunchUrlDescription": "Impossibile aprire {url}: {openError}",
+    "@unableToLaunchUrlDescription": {
+        "description": "",
+        "placeholders": {
+            "url": {
+                "description": "URL which we tried to open."
+            },
+            "openError": {
+                "description": "Information about the error"
+            }
+        }
+    },
+    "unableToLaunchUrlNoHandler": "Nessuna applicazione disponibile per l'URL.",
+    "@unableToLaunchUrlNoHandler": {
+        "description": ""
+    },
+    "launchedUrl": "URL aperto: {url}",
+    "@launchedUrl": {
+        "description": "snackbar confirmation after opening a url externally",
+        "placeholders": {
+            "url": {
+                "description": "URL which was just launched."
+            }
+        }
+    },
+    "menuItemGeneratePassword": "Genera una Password",
+    "@menuItemGeneratePassword": {},
+    "menuItemPreferences": "Impostazioni",
+    "@menuItemPreferences": {},
+    "menuItemOpenAnotherFile": "Apri un altro file",
+    "@menuItemOpenAnotherFile": {},
+    "menuItemCheckForUpdates": "Verifica aggiornamenti",
+    "@menuItemCheckForUpdates": {},
+    "menuItemHelp": "Aiuto",
+    "@menuItemHelp": {},
+    "menuItemHelpSubtitle": "Visualizza la documentazione",
+    "@menuItemHelpSubtitle": {},
+    "menuItemAbout": "Informazioni",
+    "@menuItemAbout": {},
+    "actionOpenUrl": "Apri URL",
+    "@actionOpenUrl": {
+        "description": "tooltip for button to open URL/Website of an entry."
+    },
+    "passwordPlainText": "Mostra password",
+    "@passwordPlainText": {
+        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+    },
+    "generatorPassword": "Password",
+    "@generatorPassword": {
+        "description": "Label for generated password"
+    },
+    "generatePassword": "Genera una Password",
+    "@generatePassword": {
+        "description": "screen title for password generator"
+    },
+    "doneButtonLabel": "Fatto",
+    "@doneButtonLabel": {
+        "description": "generic button label for 'Done' action."
+    },
+    "useAsDefault": "Usa come Predefinito",
+    "@useAsDefault": {
+        "description": "Button Label for Password generator settings: use as defaults",
+        "context": "Password generator"
+    },
+    "characterSetLowerCase": "Minuscole (a-z)",
+    "@characterSetLowerCase": {
+        "context": "Password generator"
+    },
+    "characterSetUpperCase": "Maiuscole (A-Z)",
+    "@characterSetUpperCase": {
+        "context": "Password generator"
+    },
+    "characterSetNumeric": "Numerici (0-9)",
+    "@characterSetNumeric": {
+        "context": "Password generator"
+    },
+    "characterSetUmlauts": "Accenti (ä)",
+    "@characterSetUmlauts": {
+        "context": "Password generator"
+    },
+    "characterSetSpecial": "Speciali (@%+)",
+    "@characterSetSpecial": {
+        "context": "Password generator"
+    },
+    "length": "Lunghezza",
+    "@length": {
+        "description": "Length of password",
+        "context": "Password generator"
+    },
+    "customLength": "Lunghezza Personalizzata",
+    "@customLength": {
+        "description": "Label for custom length field",
+        "context": "Password generator"
+    },
+    "customLengthHelperText": "Valore utilizzato solo se la lunghezza è > {customMinLength}",
+    "@customLengthHelperText": {
+        "description": "Help text for custom length field",
+        "context": "Password generator",
+        "placeholders": {
+            "customMinLength": {
+                "example": "40"
+            }
+        }
+    },
+    "savedFiles": "{numFiles, plural, one {} =1 {Un file salvato: {files}} other {{numFiles} file salvati: {files}}}",
+    "@savedFiles": {
+        "description": "Message displayed when files were saved. (One or more).",
+        "context": "Password list",
+        "placeholders": {
+            "numFiles": {
+                "description": "Number of files that have been saved (at least 1)",
+                "type": "int",
+                "format": "compactLong"
+            },
+            "files": {
+                "description": "Comma separated list of vault names."
+            }
+        }
+    },
+    "manageGroups": "Gestisci I Gruppi",
+    "@manageGroups": {
+        "description": ""
+    },
+    "lockFiles": "Nascondi i file",
+    "@lockFiles": {
+        "description": "Close all files and return to start screen."
+    },
+    "searchHint": "Cerca",
+    "@searchHint": {
+        "description": "Placeholder in the password list search box"
+    },
+    "searchButtonLabel": "Cerca",
+    "@searchButtonLabel": {
+        "description": "search button tooltip/semantic label"
+    },
+    "clear": "Rimuovi",
+    "@clear": {
+        "description": "Remove existing group filter from password list"
+    },
+    "autofillFilterPrefix": "Filtro:",
+    "@autofillFilterPrefix": {
+        "description": "Label displayed for android auto fill"
+    },
+    "autofillPrompt": "Seleziona la password per l'auto-riempimento.",
+    "@autofillPrompt": {
+        "description": ""
+    },
+    "copiedToClipboard": "Copiato negli appunti.",
+    "@copiedToClipboard": {
+        "description": "Snackbar text when copying text to clipboard."
+    },
+    "noTitle": "(nome password)",
+    "@noTitle": {
+        "description": "Text to display in place of a title, when password entry has no name assigned."
+    },
+    "noUsername": "(nome utente)",
+    "@noUsername": {
+        "description": "Text to display in place of a user name in the password list if none is defined."
+    },
+    "filterCustomize": "Personalizza …",
+    "@filterCustomize": {
+        "description": "Customize filter in password list"
+    },
+    "swipeCopyPassword": "Copia la Password",
+    "@swipeCopyPassword": {
+        "description": "swipe action in password list to copy password"
+    },
+    "swipeCopyUsername": "Copia il Nome Utente",
+    "@swipeCopyUsername": {
+        "description": "swipe action in password list to copy username"
+    },
+    "doneCopiedPassword": "Password copiata negli appunti.",
+    "@doneCopiedPassword": {
+        "description": "snackbar confirmation that password was copied."
+    },
+    "doneCopiedUsername": "Nome utente copiato negli appunti.",
+    "@doneCopiedUsername": {
+        "description": "snackbar confirmation that username was copied."
+    },
+    "doneCopiedField": "Copiato.",
+    "@doneCopiedField": {
+        "description": ""
+    },
+    "emptyPasswordVaultPlaceholder": "Non hai alcuna password nel tuo database.",
+    "@emptyPasswordVaultPlaceholder": {
+        "description": "Placeholder text shown when a user opens an empty password file."
+    },
+    "emptyPasswordVaultButtonLabel": "Crea la tua prima password",
+    "@emptyPasswordVaultButtonLabel": {
+        "description": "Button shown under placeholder text when password database is empty"
+    },
+    "loadingFile": "Caricamento del file …",
+    "@loadingFile": {
+        "description": "credential screen while unlocking file."
+    },
+    "internalFile": "File interno",
+    "@internalFile": {
+        "description": "Choose a file previously created in AuthPass app sandbox",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "internalFileSubtitle": "Database creato in precedenza con AuthPass",
+    "@internalFileSubtitle": {
+        "description": "Choose a file previously created in AuthPass app sandbox",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "filePicker": "Sfoglia",
+    "@filePicker": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "filePickerSubtitle": "Apri il file dal dispositivo.",
+    "@filePickerSubtitle": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "credentialsAppBarTitle": "Credenziali",
+    "@credentialsAppBarTitle": {
+        "description": "Credential screen to enter master password when opening kdbx file.",
+        "context": "credential screen"
+    },
+    "credentialLabel": "Inserisci la password per:",
+    "@credentialLabel": {
+        "description": "Label for the file/database being opened",
+        "context": "credential screen"
+    },
+    "masterPasswordInputLabel": "Password",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "masterPasswordEmptyValidator": "Inserisci la password.",
+    "@masterPasswordEmptyValidator": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "masterPasswordIncorrectValidator": "Password errata",
+    "@masterPasswordIncorrectValidator": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "useKeyFile": "Usa file autenticazione",
+    "@useKeyFile": {
+        "description": "label for a key file in combination with mater password",
+        "context": "credential screen"
+    },
+    "saveMasterPasswordBiometric": "Salvare la password nella memoria ad accesso biometrico?",
+    "@saveMasterPasswordBiometric": {
+        "description": "Label for the checkbox to save master password for quick unlock.",
+        "context": "credential screen"
+    },
+    "errorOpenFileAlreadyOpenTitle": "File già aperto",
+    "@errorOpenFileAlreadyOpenTitle": {
+        "description": "Trying to open a database from a second file source which is already open.",
+        "context": "credential screen"
+    },
+    "errorOpenFileAlreadyOpenBody": "Il database selezionato {databaseName} è già aperto da {openFileSource} (Si è tentato di aprire da {newFileSource})",
+    "@errorOpenFileAlreadyOpenBody": {
+        "description": "Trying to open a database from a second file source which is already open.",
+        "context": "credential screen",
+        "placeholders": {
+            "databaseName": {},
+            "openFileSource": {},
+            "newFileSource": {}
+        }
+    },
+    "errorUnlockFileTitle": "Impossibile aprire il File",
+    "@errorUnlockFileTitle": {
+        "description": "generic error when opening a file (dialog title)",
+        "context": "credential screen"
+    },
+    "errorUnlockFileBody": "Errore sconosciuto durante l'apertura del file. {error}",
+    "@errorUnlockFileBody": {
+        "description": "generic error when opening a file (description)",
+        "context": "credential screen",
+        "placeholders": {
+            "error": {
+                "description": "Error details."
+            }
+        }
+    },
+    "dialogContinue": "Continua",
+    "@dialogContinue": {
+        "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+    },
+    "groupFilterDescription": "Seleziona quali Gruppi mostrare (e relativi sottogruppi)",
+    "@groupFilterDescription": {
+        "description": "Description shown in the group list for filtering (e.g. app drawer)",
+        "context": "group filter"
+    },
+    "groupFilterSelectAll": "Seleziona tutto",
+    "@groupFilterSelectAll": {
+        "context": "group filter"
+    },
+    "groupFilterDeselectAll": "Deseleziona tutto",
+    "@groupFilterDeselectAll": {
+        "context": "group filter"
+    },
+    "createSubgroup": "Crea Un Sottogruppo",
+    "@createSubgroup": {
+        "description": "menu action: create nested group inside another group"
+    },
+    "editAction": "Modifica",
+    "@editAction": {
+        "description": "menu action: edit item (e.g. delete a group)"
+    },
+    "deleteAction": "Elimina",
+    "@deleteAction": {
+        "description": "menu action: delete item (e.g. delete a group)"
+    },
+    "successfullyDeletedGroup": "Gruppo eliminato.",
+    "@successfullyDeletedGroup": {
+        "description": "snackbar after deleting a group."
+    },
+    "undoButtonLabel": "Annulla",
+    "@undoButtonLabel": {
+        "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
+    },
+    "saveButtonLabel": "Salva",
+    "@saveButtonLabel": {
+        "description": "save file, for example button displayed in entry details"
+    },
+    "webDavAuthPassword": "Password",
+    "@webDavAuthPassword": {
+        "description": ""
+    },
+    "initialNewGroupName": "Crea Gruppo",
+    "@initialNewGroupName": {
+        "description": "initial name of groups when user creates a new one."
+    },
+    "deleteGroupErrorTitle": "Impossibile eliminare il gruppo",
+    "@deleteGroupErrorTitle": {
+        "description": "Title of error dialog when group could not be deleted."
+    },
+    "deleteGroupErrorBodyContainsGroup": "Questo gruppo contiene ancora altri gruppi. Al momento puoi eliminare solo gruppi vuoti.",
+    "@deleteGroupErrorBodyContainsGroup": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "deleteGroupErrorBodyContainsEntries": "Questo gruppo contiene delle password. Al momento puoi eliminare solo gruppi vuoti.",
+    "@deleteGroupErrorBodyContainsEntries": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "groupListAppBarTitle": "Gruppi",
+    "@groupListAppBarTitle": {
+        "description": "title in the app bar for the groups list"
+    },
+    "groupListFilterAppbarTitle": "Filtra per gruppi",
+    "@groupListFilterAppbarTitle": {
+        "description": "title in the app bar for group lists when displayed for filtering password list"
+    },
+    "clearQuickUnlock": "Cancella Archivio Biometrico",
+    "@clearQuickUnlock": {
+        "description": ""
+    },
+    "clearQuickUnlockSubtitle": "Rimuovi la Master Password salvata",
+    "@clearQuickUnlockSubtitle": {
+        "description": ""
+    },
+    "unlock": "Mostra i file",
+    "@unlock": {
+        "description": ""
+    },
+    "closePasswordFiles": "chiudi i file contenenti le password",
+    "@closePasswordFiles": {
+        "description": "delete quick unlock (passwords stored in biometric storage)"
+    },
+    "clearQuickUnlockSuccess": "Password principale rimossa dalla memoria biometrica.",
+    "@clearQuickUnlockSuccess": {
+        "description": ""
+    },
+    "diacOptIn": "Attiva per News e Sondaggi In-App.",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "Periodicamente verrà inviata una richiesta alla rete per recuperare notizie.",
+    "@diacOptInSubtitle": {},
+    "enableAutofillDebug": "Autocompletamento: Abilita il debug",
+    "@enableAutofillDebug": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "enableAutofillDebugSubtitle": "Mostra informazioni in sovrimpressione per ogni campo",
+    "@enableAutofillDebugSubtitle": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "createPasswordDatabase": "Crea un Nuovo Database",
+    "@createPasswordDatabase": {
+        "description": ""
+    },
+    "nameNewPasswordDatabase": "Dai un Nome al tuo Database",
+    "@nameNewPasswordDatabase": {
+        "description": "creating new kdbx file, prompt"
+    },
+    "validatorNameMissing": "Inserisci un nome per il tuo nuovo database.",
+    "@validatorNameMissing": {
+        "description": "Error message when no password database name is given."
+    },
+    "masterPasswordHelpText": "Inserisci una Master Password. ASSICURATI DI RICORDARLA.",
+    "@masterPasswordHelpText": {
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+    },
+    "inputMasterPasswordText": "Master Password",
+    "@inputMasterPasswordText": {
+        "description": "Creating new file: input field for master password"
+    },
+    "masterPasswordMissingCreate": "Inserisci una password sicura che puoi ricordarti.",
+    "@masterPasswordMissingCreate": {
+        "description": "Text displayed when master password is empty while creating new password database"
+    },
+    "createDatabaseAction": "Crea Un Database",
+    "@createDatabaseAction": {
+        "description": "Label for button to create new database"
+    },
+    "databaseExistsError": "Il File è già Esistente",
+    "@databaseExistsError": {
+        "description": "dialog title for error message when creating a new database with a name which already exists."
+    },
+    "databaseExistsErrorDescription": "Errore durante la creazione del database {filePath}. Il file esiste già. scegliere un altro nome.",
+    "@databaseExistsErrorDescription": {
+        "description": "dialog body for error message when creating a new database with a name which already exists.",
+        "placeholders": {
+            "filePath": {
+                "description": "file path which already existed."
+            }
+        }
+    },
+    "databaseCreateDefaultName": "MiePassword",
+    "@databaseCreateDefaultName": {
+        "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
+    },
+    "preferenceDynamicLoadIcons": "Carica Icone dal Web",
+    "@preferenceDynamicLoadIcons": {
+        "description": "preferences: dynamically load website icons"
+    },
+    "preferenceDynamicLoadIconsSubtitle": "L'applicazione farà una richiesta http tramite i valori nell'Url del {urlFieldName} per caricare le icone dai siti.",
+    "@preferenceDynamicLoadIconsSubtitle": {
+        "description": "preferences: dynamically load website icons help text.",
+        "placeholders": {
+            "urlFieldName": {
+                "example": "Website"
+            }
+        }
+    },
+    "passwordScore": "Sicurezza: {score} su 4",
+    "@passwordScore": {
+        "description": "choosing a master password - calculated password strength.",
+        "placeholders": {
+            "score": {
+                "description": "integer of the score.",
+                "example": "3"
+            }
+        }
+    },
+    "entryInfoFile": "File:",
+    "@entryInfoFile": {
+        "description": ""
+    },
+    "entryInfoGroup": "Gruppo:",
+    "@entryInfoGroup": {
+        "description": ""
+    },
+    "entryInfoLastModified": "Ultima Modifica:",
+    "@entryInfoLastModified": {
+        "description": ""
+    },
+    "movedEntryToGroup": "Elemento spostato in {groupName}",
+    "@movedEntryToGroup": {
+        "description": "",
+        "placeholders": {
+            "groupName": {
+                "description": "Name of the group the entry was moved to."
+            }
+        }
+    },
+    "sizeBytes": "{count} byte",
+    "@sizeBytes": {
+        "description": "",
+        "placeholders": {
+            "count": {
+                "description": "file size in bytes",
+                "example": "123"
+            }
+        }
+    },
+    "entryAddAttachment": "Aggiungi Allegato",
+    "@entryAddAttachment": {
+        "description": ""
+    },
+    "entryAttachmentSizeWarning": "I file allegati saranno incorporati nel file di password. Questo può aumentare significativamente il tempo necessario per aprire/salvare le password.",
+    "@entryAttachmentSizeWarning": {
+        "description": ""
+    },
+    "iconPngSizeWarning": "Le icone personalizzate saranno incorporate nel file delle password. Questo può aumentare significativamente il tempo necessario per aprire/salvare le password.",
+    "@iconPngSizeWarning": {
+        "description": "Warning shown when user selects a large png file as custom icon."
+    },
+    "notPngError": "Il file scelto non è nel formato PNG.",
+    "@notPngError": {
+        "description": "Error when user selects an unsupported file as custom icon."
+    },
+    "entryAddField": "Aggiungi Campo",
+    "@entryAddField": {
+        "description": ""
+    },
+    "entryCustomField": "Campo Personalizzato",
+    "@entryCustomField": {
+        "description": ""
+    },
+    "entryCustomFieldTitle": "Aggiungi un campo personalizzato",
+    "@entryCustomFieldTitle": {
+        "description": ""
+    },
+    "entryCustomFieldInputLabel": "Inserisci un nome per il campo",
+    "@entryCustomFieldInputLabel": {
+        "description": ""
+    },
+    "swipeCopyField": "Copia",
+    "@swipeCopyField": {
+        "description": ""
+    },
+    "fieldRename": "Rinomina",
+    "@fieldRename": {
+        "description": ""
+    },
+    "fieldGeneratePassword": "Genera una Password…",
+    "@fieldGeneratePassword": {
+        "description": ""
+    },
+    "fieldPresent": "Mostra (QR Code)",
+    "@fieldPresent": {
+        "description": ""
+    },
+    "fieldGenerateEmail": "Genera Email",
+    "@fieldGenerateEmail": {
+        "description": ""
+    },
+    "onboardingBackToOnboarding": "Tour",
+    "@onboardingBackToOnboarding": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingBackToOnboardingSubtitle": "Rivivi i primi passi 😅️",
+    "@onboardingBackToOnboardingSubtitle": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingHeadline": "Rendi sicure le tue Password!",
+    "@onboardingHeadline": {
+        "description": ""
+    },
+    "onboardingQuestion": "Hai mai usato un Password Manager?",
+    "@onboardingQuestion": {
+        "description": ""
+    },
+    "onboardingYesOpenPasswords": "Si, accedi alle mie password",
+    "@onboardingYesOpenPasswords": {
+        "description": ""
+    },
+    "onboardingNoCreate": "Sono nuovo! guidami.",
+    "@onboardingNoCreate": {
+        "description": ""
+    },
+    "backupButton": "SALVA IN UN CLOUD",
+    "@backupButton": {
+        "description": "Button that is displayed in backup warnings"
+    },
+    "dismissBackupButton": "NASCONDI",
+    "@dismissBackupButton": {
+        "description": "Button that is displayed in backup warnings to dismiss the warning"
+    },
+    "backupWarningMessage": "Le tue password in {databasename} sono salvate solo sul dispositivo!",
+    "@backupWarningMessage": {
+        "description": "Warning message that is displayed in backup warnings",
+        "placeholders": {
+            "databasename": {
+                "example": "PasswordDatabase"
+            }
+        }
+    },
+    "saveAs": "Salva In...",
+    "@saveAs": {
+        "description": "Save as text"
+    },
+    "saving": "Salvataggio in Corso",
+    "@saving": {
+        "description": "Saving text"
+    },
+    "newGroupDialogTitle": "Crea Gruppo",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "Elimina",
+    "@groupActionDelete": {
+        "description": ""
+    },
+    "shareCodeLoadingProgress": "Caricamento del file …",
+    "@shareCodeLoadingProgress": {
+        "description": ""
+    },
+    "shortcutCopyUsername": "Copia il Nome Utente",
+    "@shortcutCopyUsername": {
+        "description": ""
+    },
+    "shortcutCopyPassword": "Copia la Password",
+    "@shortcutCopyPassword": {
+        "description": ""
+    },
+    "shortcutGeneratePassword": "Genera una Password",
+    "@shortcutGeneratePassword": {
+        "description": ""
+    },
+    "shortcutOpenUrl": "Apri URL",
+    "@shortcutOpenUrl": {
+        "description": ""
+    },
+    "unexpectedError": "Errore imprevisto: {error}",
+    "@unexpectedError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    }
+}

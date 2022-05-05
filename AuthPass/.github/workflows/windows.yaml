@@ -1,0 +1,73 @@
+name: build windows
+
+on: 
+  push:
+    branches:
+      - 'windows**'
+      - 'stable'
+      - 'beta'
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        flavor: ['windows', 'msix', 'windowsportable']
+        os: [windows-2019]
+        vs: [2019]
+
+      fail-fast: true
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - shell: bash
+      run: git status
+    - shell: bash
+      run: git diff
+    - shell: bash
+      run: |
+        set -xeu
+        git config core.autocrlf
+        git config --global core.autocrlf true
+        git submodule update
+        git checkout -- .
+        git submodule foreach git checkout -- .
+        git status
+        git diff-index HEAD
+        for f in `git ls-files -s | awk '/120000/{print $4}'`; do git update-index --assume-unchanged $f; done
+    - name: ci-install-deps
+      shell: bash
+      env:
+        BLACKBOX_SECRET: ${{ secrets.BLACKBOX_SECRET_KEY }}
+      run: |
+        ./authpass/_tools/ci-install-deps.sh windows
+        ~/deps/flutter/bin/flutter config --enable-windows-desktop
+    - name: build ${{ matrix.flavor }} apk
+      id: buildapk
+      shell: bash
+      env:
+        GIT_AUTHOR_NAME: 'Github Action CI'
+        GIT_AUTHOR_EMAIL: 'herbert.github.ci@codeux.design'
+        GIT_COMMITTER_NAME: 'Github Action CI'
+        GIT_COMMITTER_EMAIL: 'herbert.github.ci@codeux.design'
+      run: ./authpass/_tools/ci-release.sh ${{ matrix.flavor }}
+    - shell: bash
+      run: |
+        cat authpass/lib/generated_plugin_registrant.dart
+    - uses: actions/upload-artifact@v1
+      with:
+        name: ${{ steps.buildapk.outputs.outputfilename }}
+        path: authpass/${{ steps.buildapk.outputs.outputpath }}
+    - name: upload artifact
+      shell: bash
+      run: ./authpass/_tools/upload-artifact.sh authpass/${{ steps.buildapk.outputs.outputpath }}
+    # - uses: snapcore/action-build@v1
+    #   id: snapcraft
+    # - uses: actions/upload-artifact@v2
+    #   with:
+    #     name: authpass-${{ steps.buildapk.outputs.appversion }}_${{ steps.buildapk.outputs.appbuildnumber }}-snap
+    #     path: ${{ steps.snapcraft.outputs.snap }}

@@ -1,0 +1,13 @@
+commit_message: '[crowdin] Update translations (%language%) %original_file_name%'
+append_commit_message: false
+files:
+  - source: /metadata/android/en-US/*.txt
+    translation: /metadata/android/%locale%/%original_file_name%
+  - source: /authpass/lib/l10n/app_en.arb
+    translation: /authpass/lib/l10n/app_%two_letters_code%.arb
+  - source: /authpass/android/fastlane/metadata/android/en-US/*.strings
+    translation: /authpass/android/fastlane/metadata/android/%locale%/%original_file_name%
+  - source: /authpass/ios/fastlane/screenshots/en-US/*.strings
+    translation: /authpass/ios/fastlane/screenshots/%locale%/%original_file_name%
+  - source: /metadata/misc/en-US/*.csv
+    translation: /metadata/misc/%locale%/%original_file_name%

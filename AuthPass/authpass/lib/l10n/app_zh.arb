@@ -1,0 +1,1321 @@
+{
+    "@@locale": "zh",
+    "fieldUserName": "用户",
+    "@fieldUserName": {},
+    "fieldPassword": "密码",
+    "@fieldPassword": {},
+    "fieldWebsite": "目标网站",
+    "@fieldWebsite": {},
+    "fieldTitle": "标题",
+    "@fieldTitle": {},
+    "fieldTotp": "双重认证 (Totp)",
+    "@fieldTotp": {
+        "description": "Label for fields of TOTP (Time based one time passwords)"
+    },
+    "english": "English",
+    "@english": {
+        "description": "language switcher subtitle"
+    },
+    "german": "德语",
+    "@german": {
+        "description": "language switcher subtitle"
+    },
+    "russian": "俄语",
+    "@russian": {
+        "description": "language switcher subtitle"
+    },
+    "ukrainian": "乌克兰语",
+    "@ukrainian": {
+        "description": "language switcher subtitle"
+    },
+    "lithuanian": "立陶宛语",
+    "@lithuanian": {
+        "description": "language switcher subtitle"
+    },
+    "french": "法语",
+    "@french": {
+        "description": "language switcher subtitle"
+    },
+    "spanish": "西班牙语",
+    "@spanish": {
+        "description": "language switcher subtitle"
+    },
+    "indonesian": "印度尼西亚语",
+    "@indonesian": {
+        "description": "language switcher subtitle"
+    },
+    "turkish": "土耳其语",
+    "@turkish": {
+        "description": "Language switcher subtitle"
+    },
+    "hebrew": "希伯来语",
+    "@hebrew": {
+        "description": "Language switcher subtitle"
+    },
+    "italian": "意大利语",
+    "@italian": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseSimplified": "简体中文",
+    "@chineseSimplified": {
+        "description": "Language switcher subtitle"
+    },
+    "chineseTraditional": "繁体中文",
+    "@chineseTraditional": {
+        "description": "Language switcher subtitle"
+    },
+    "portugueseBrazilian": "葡萄牙文（巴西）",
+    "@portugueseBrazilian": {
+        "description": "Language switcher subtitle"
+    },
+    "slovak": "斯洛伐克语",
+    "@slovak": {
+        "description": "Language switcher subtitle"
+    },
+    "dutch": "荷兰语",
+    "@dutch": {
+        "description": "Language switcher subtitle"
+    },
+    "selectItem": "选择...",
+    "@selectItem": {
+        "description": "semantic label for checkboxes to select item."
+    },
+    "selectKeepassFile": "魔钥 - 打开密码库",
+    "@selectKeepassFile": {
+        "context": "appbar title - select file screen"
+    },
+    "selectKeepassFileLabel": "请打开一个数据库，后缀名为.kdbx",
+    "@selectKeepassFileLabel": {
+        "context": "select file screen, used as label."
+    },
+    "createNewFile": "新建一个",
+    "@createNewFile": {
+        "description": "button on select file screen to create a new password database."
+    },
+    "openLocalFile": "本地\n文件",
+    "@openLocalFile": {
+        "context": "select file screen, big button open local file."
+    },
+    "openFile": "打开文件",
+    "@openFile": {
+        "description": "Displayed as placeholder in password list when no file is open."
+    },
+    "loadFromDropdownMenu": "更多...",
+    "@loadFromDropdownMenu": {
+        "description": "label for dropdown menu which shows more cloud storage options."
+    },
+    "quickUnlockingFiles": "少女祈祷中...",
+    "@quickUnlockingFiles": {
+        "description": "Status shown while we are loading files and trying to unlock them."
+    },
+    "openFileProgress": "正在准备 {fileName} … \n已完成({current} / {totalCount})",
+    "@openFileProgress": {
+        "description": "Progress shown while files are loaded during quick unlock.",
+        "placeholders": {
+            "fileName": {
+                "description": "Name of the file that is currently loaded."
+            },
+            "current": {
+                "description": "The index/number of file currently loading."
+            },
+            "totalCount": {
+                "description": "Total number of files which are loading."
+            }
+        }
+    },
+    "loadFrom": "从 {cloudStorageName} 导入",
+    "@loadFrom": {
+        "placeholders": {
+            "cloudStorageName": {
+                "type": "String",
+                "example": "Dropbox"
+            }
+        }
+    },
+    "loadFromRemoteUrl": "从链接打开 kdbx密码箱",
+    "@loadFromRemoteUrl": {
+        "description": "Overflow menu option to load KeePass file from URL."
+    },
+    "createNewKeepass": "初来乍到？创建你的第一个密码库吧！",
+    "@createNewKeepass": {
+        "description": "deprecated"
+    },
+    "labelLastOpenFiles": "上次打开的密码库:",
+    "@labelLastOpenFiles": {},
+    "noFilesHaveBeenOpenYet": "看什么看，这里还空着呢！",
+    "@noFilesHaveBeenOpenYet": {},
+    "preferenceSelectLanguage": "选择界面语言",
+    "@preferenceSelectLanguage": {},
+    "preferenceLanguage": "界面语言",
+    "@preferenceLanguage": {},
+    "preferenceTextScaleFactor": "字体大小",
+    "@preferenceTextScaleFactor": {},
+    "preferenceVisualDensity": "图标密度",
+    "@preferenceVisualDensity": {},
+    "preferenceTheme": "应用程序主题",
+    "@preferenceTheme": {},
+    "preferenceThemeLight": "亮",
+    "@preferenceThemeLight": {},
+    "preferenceThemeDark": "暗",
+    "@preferenceThemeDark": {},
+    "preferenceSystemDefault": "跟随系统",
+    "@preferenceSystemDefault": {},
+    "preferenceDefault": "默认",
+    "@preferenceDefault": {},
+    "lockAllFiles": "锁定所有数据库",
+    "@lockAllFiles": {},
+    "preferenceAllowScreenshots": "允许对本应用截屏",
+    "@preferenceAllowScreenshots": {},
+    "preferenceEnableAutoFill": "启用密码自动填充",
+    "@preferenceEnableAutoFill": {},
+    "enableAutofillSuggestionBanner": "安卓系统支持自动填写账号密码，需要开启吗？",
+    "@enableAutofillSuggestionBanner": {
+        "description": "This text will shown as a banner on top of password list"
+    },
+    "dismissAutofillSuggestionBannerButton": "这次不要",
+    "@dismissAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to dismiss the warning"
+    },
+    "enableAutofillSuggestionBannerButton": "好！",
+    "@enableAutofillSuggestionBannerButton": {
+        "description": "Button that is displayed in autofill suggestion warnings to enable autofill"
+    },
+    "preferenceAutoFillDescription": "仅支持安卓 8.0 (Oreo) 或更高版本。",
+    "@preferenceAutoFillDescription": {},
+    "preferenceTitle": "设置",
+    "@preferenceTitle": {},
+    "aboutAppName": "Authpass-魔钥",
+    "@aboutAppName": {},
+    "aboutLinkFeedback": "我们欢迎反馈意见！",
+    "@aboutLinkFeedback": {},
+    "aboutLinkVisitWebsite": "别忘了参观一下我们的网站",
+    "@aboutLinkVisitWebsite": {},
+    "aboutLinkGitHub": "本项目是自由开源软件！",
+    "@aboutLinkGitHub": {},
+    "aboutLogFile": "日志文件： {logFilePath}",
+    "aboutLinkContributors": "显示贡献者",
+    "@aboutLinkContributors": {},
+    "@aboutLogFile": {
+        "placeholders": {
+            "logFilePath": {
+                "type": "String",
+                "example": "/Users/mustermann/log.txt"
+            }
+        }
+    },
+    "unableToLaunchUrlTitle": "无法打开链接",
+    "@unableToLaunchUrlTitle": {
+        "description": ""
+    },
+    "unableToLaunchUrlDescription": "打开链接 {url} 失败：{openError}",
+    "@unableToLaunchUrlDescription": {
+        "description": "",
+        "placeholders": {
+            "url": {
+                "description": "URL which we tried to open."
+            },
+            "openError": {
+                "description": "Information about the error"
+            }
+        }
+    },
+    "unableToLaunchUrlNoHandler": "找不到可以打开这个链接的应用程序",
+    "@unableToLaunchUrlNoHandler": {
+        "description": ""
+    },
+    "launchedUrl": "你打开的链接是：{url}",
+    "@launchedUrl": {
+        "description": "snackbar confirmation after opening a url externally",
+        "placeholders": {
+            "url": {
+                "description": "URL which was just launched."
+            }
+        }
+    },
+    "menuItemGeneratePassword": "生成安全密码",
+    "@menuItemGeneratePassword": {},
+    "menuItemPreferences": "偏好设置",
+    "@menuItemPreferences": {},
+    "menuItemOpenAnotherFile": "打开另一个数据库",
+    "@menuItemOpenAnotherFile": {},
+    "menuItemCheckForUpdates": "检查更新",
+    "@menuItemCheckForUpdates": {},
+    "menuItemSupport": "发送日志",
+    "@menuItemSupport": {},
+    "menuItemSupportSubtitle": "通过电子邮件发送日志",
+    "@menuItemSupportSubtitle": {},
+    "menuItemForum": "支援论坛",
+    "@menuItemForum": {},
+    "menuItemForumSubtitle": "报告问题并获得帮助",
+    "@menuItemForumSubtitle": {},
+    "menuItemHelp": "寻求帮助",
+    "@menuItemHelp": {},
+    "menuItemHelpSubtitle": "在浏览器查阅用户文档",
+    "@menuItemHelpSubtitle": {},
+    "menuItemAbout": "关于本应用",
+    "@menuItemAbout": {},
+    "actionOpenUrl": "打开链接",
+    "@actionOpenUrl": {
+        "description": "tooltip for button to open URL/Website of an entry."
+    },
+    "passwordPlainText": "显示密码",
+    "@passwordPlainText": {
+        "description": "Master password input: show password as plain text during input. (shown as tooltip)"
+    },
+    "generatorPassword": "新鲜出炉的随机密码~",
+    "@generatorPassword": {
+        "description": "Label for generated password"
+    },
+    "generatePassword": "生成随机密码",
+    "@generatePassword": {
+        "description": "screen title for password generator"
+    },
+    "doneButtonLabel": "完成",
+    "@doneButtonLabel": {
+        "description": "generic button label for 'Done' action."
+    },
+    "useAsDefault": "用作默认密码",
+    "@useAsDefault": {
+        "description": "Button Label for Password generator settings: use as defaults",
+        "context": "Password generator"
+    },
+    "characterSetLowerCase": "小写 (a-z)",
+    "@characterSetLowerCase": {
+        "context": "Password generator"
+    },
+    "characterSetUpperCase": "大写(A-Z)",
+    "@characterSetUpperCase": {
+        "context": "Password generator"
+    },
+    "characterSetNumeric": "数字 (0-9)",
+    "@characterSetNumeric": {
+        "context": "Password generator"
+    },
+    "characterSetUmlauts": "拉丁语系排序 (ä)",
+    "@characterSetUmlauts": {
+        "context": "Password generator"
+    },
+    "characterSetSpecial": "特殊字符 (@%+)",
+    "@characterSetSpecial": {
+        "context": "Password generator"
+    },
+    "length": "长度",
+    "@length": {
+        "description": "Length of password",
+        "context": "Password generator"
+    },
+    "customLength": "自定义密码长度",
+    "@customLength": {
+        "description": "Label for custom length field",
+        "context": "Password generator"
+    },
+    "customLengthHelperText": "仅当需要长度多于 > {customMinLength} 位的密码时使用，必须是整数",
+    "@customLengthHelperText": {
+        "description": "Help text for custom length field",
+        "context": "Password generator",
+        "placeholders": {
+            "customMinLength": {
+                "example": "40"
+            }
+        }
+    },
+    "savedFiles": "{numFiles, plural, =1 {一个文件已保存: {files}} other {{numFiles} 个已保存的文件: {files}}}",
+    "@savedFiles": {
+        "description": "Message displayed when files were saved. (One or more).",
+        "context": "Password list",
+        "placeholders": {
+            "numFiles": {
+                "description": "Number of files that have been saved (at least 1)",
+                "type": "int",
+                "format": "compactLong"
+            },
+            "files": {
+                "description": "Comma separated list of vault names."
+            }
+        }
+    },
+    "manageGroups": "分组管理",
+    "@manageGroups": {
+        "description": ""
+    },
+    "lockFiles": "锁定文件",
+    "@lockFiles": {
+        "description": "Close all files and return to start screen."
+    },
+    "searchHint": "吾将上下而求索...",
+    "@searchHint": {
+        "description": "Placeholder in the password list search box"
+    },
+    "searchButtonLabel": "吾将上下而求索...",
+    "@searchButtonLabel": {
+        "description": "search button tooltip/semantic label"
+    },
+    "filterButtonLabel": "按组筛选",
+    "@filterButtonLabel": {
+        "description": "tooltip/semantic label for filter app bar icon."
+    },
+    "clear": "清空",
+    "@clear": {
+        "description": "Remove existing group filter from password list"
+    },
+    "autofillFilterPrefix": "筛选：",
+    "@autofillFilterPrefix": {
+        "description": "Label displayed for android auto fill"
+    },
+    "autofillPrompt": "选择用于自动填充的密码条目。",
+    "@autofillPrompt": {
+        "description": ""
+    },
+    "copiedToClipboard": "成功复制到剪贴板",
+    "@copiedToClipboard": {
+        "description": "Snackbar text when copying text to clipboard."
+    },
+    "noTitle": "(无标题)",
+    "@noTitle": {
+        "description": "Text to display in place of a title, when password entry has no name assigned."
+    },
+    "noUsername": "(空空如也)",
+    "@noUsername": {
+        "description": "Text to display in place of a user name in the password list if none is defined."
+    },
+    "filterCustomize": "自定义 …",
+    "@filterCustomize": {
+        "description": "Customize filter in password list"
+    },
+    "swipeCopyPassword": "复制密码",
+    "@swipeCopyPassword": {
+        "description": "swipe action in password list to copy password"
+    },
+    "swipeCopyUsername": "复制登录帐号",
+    "@swipeCopyUsername": {
+        "description": "swipe action in password list to copy username"
+    },
+    "copyUsernameNotExists": "并没有记录用户名，想试试代理邮箱吗？",
+    "@copyUsernameNotExists": {
+        "description": "Error message when trying to copy username from an entry which has none."
+    },
+    "copyPasswordNotExists": "还没有密码，去生成一个吧~",
+    "@copyPasswordNotExists": {
+        "description": "Error message when trying to copy password from an entry which has none."
+    },
+    "doneCopiedPassword": "密码已复制到剪贴板。",
+    "@doneCopiedPassword": {
+        "description": "snackbar confirmation that password was copied."
+    },
+    "doneCopiedUsername": "登录帐号已复制到剪贴板。",
+    "@doneCopiedUsername": {
+        "description": "snackbar confirmation that username was copied."
+    },
+    "doneCopiedField": "复制成功！",
+    "@doneCopiedField": {
+        "description": ""
+    },
+    "copiedFieldToClipboard": "{fieldName} 已在剪贴板待命。",
+    "@copiedFieldToClipboard": {
+        "description": "",
+        "placeholders": {
+            "fieldName": {}
+        }
+    },
+    "copiedFieldEmpty": "{fieldName} 是空的，不要空手套白狼。",
+    "@copiedFieldEmpty": {
+        "description": "Displayed when user wants to copy a field which is empty or not defined.",
+        "placeholders": {
+            "fieldName": {}
+        }
+    },
+    "emptyPasswordVaultPlaceholder": "准备好保护你的第一个密码了吗？",
+    "@emptyPasswordVaultPlaceholder": {
+        "description": "Placeholder text shown when a user opens an empty password file."
+    },
+    "emptyPasswordVaultButtonLabel": "我准备好了！",
+    "@emptyPasswordVaultButtonLabel": {
+        "description": "Button shown under placeholder text when password database is empty"
+    },
+    "loading": "少女祈祷中...",
+    "@loading": {
+        "description": "generic loading indicator displayed during network request (e.g. when loading file list from cloud storage)"
+    },
+    "loadingFile": "召唤真理之匙...",
+    "@loadingFile": {
+        "description": "credential screen while unlocking file."
+    },
+    "internalFile": "内部文件",
+    "@internalFile": {
+        "description": "Choose a file previously created in AuthPass app sandbox",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "internalFileSubtitle": "之前使用本应用创建的密码库",
+    "@internalFileSubtitle": {
+        "description": "Choose a file previously created in AuthPass app sandbox",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "filePicker": "文件选择器",
+    "@filePicker": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "filePickerSubtitle": "从设备存储打开文件。",
+    "@filePickerSubtitle": {
+        "description": "Choose a file with the system's file picker. (ios/android)",
+        "context": "open file picker: internal file vs. file picker"
+    },
+    "credentialsAppBarTitle": "解锁密码",
+    "@credentialsAppBarTitle": {
+        "description": "Credential screen to enter master password when opening kdbx file.",
+        "context": "credential screen"
+    },
+    "credentialLabel": "输入这个数据库的解锁密码",
+    "@credentialLabel": {
+        "description": "Label for the file/database being opened",
+        "context": "credential screen"
+    },
+    "masterPasswordInputLabel": "用主密码保护你的密码库",
+    "@masterPasswordInputLabel": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "masterPasswordEmptyValidator": "欢迎回来！在这里输入主密码",
+    "@masterPasswordEmptyValidator": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "masterPasswordIncorrectValidator": "密码不对哦~",
+    "@masterPasswordIncorrectValidator": {
+        "description": "",
+        "context": "credential screen"
+    },
+    "useKeyFile": "使用密钥文件",
+    "@useKeyFile": {
+        "description": "label for a key file in combination with mater password",
+        "context": "credential screen"
+    },
+    "saveMasterPasswordBiometric": "使用生物识别保存密码？",
+    "@saveMasterPasswordBiometric": {
+        "description": "Label for the checkbox to save master password for quick unlock.",
+        "context": "credential screen"
+    },
+    "close": "关闭",
+    "@close": {
+        "description": "Tooltip/semantic label for close button"
+    },
+    "addNewPassword": "添加新密码",
+    "@addNewPassword": {
+        "description": "Tooltip for adding new password button (floating action button)"
+    },
+    "errorOpenFileInvalidFileStructureTitle": "打开失败，检查一下文件？",
+    "@errorOpenFileInvalidFileStructureTitle": {
+        "description": "Title of error dialog when trying to open an invalid/unsupported file type"
+    },
+    "errorOpenFileInvalidFileStructureBody": "无法打开 ({fileName})。 请选择一个有效的 KDBX 文件，或创建一个新的。",
+    "@errorOpenFileInvalidFileStructureBody": {
+        "description": "Body of error dialog when trying to open an invalid/unsupported file type",
+        "placeholders": {
+            "fileName": {}
+        }
+    },
+    "errorOpenFileAlreadyOpenTitle": "文件已经打开",
+    "@errorOpenFileAlreadyOpenTitle": {
+        "description": "Trying to open a database from a second file source which is already open.",
+        "context": "credential screen"
+    },
+    "errorOpenFileAlreadyOpenBody": "所选数据库 {databaseName} 已经从 {openFileSource} 打开(试图从 {newFileSource} 打开)",
+    "@errorOpenFileAlreadyOpenBody": {
+        "description": "Trying to open a database from a second file source which is already open.",
+        "context": "credential screen",
+        "placeholders": {
+            "databaseName": {},
+            "openFileSource": {},
+            "newFileSource": {}
+        }
+    },
+    "loadFromUrl": "从链接下载",
+    "@loadFromUrl": {
+        "description": ""
+    },
+    "loadFromUrlEnterUrl": "输入网址",
+    "@loadFromUrlEnterUrl": {
+        "description": "label for input box to enter url."
+    },
+    "loadFromUrlErrorEnterFullUrl": "请输入以 http:// 或 https://开头的完整链接",
+    "@loadFromUrlErrorEnterFullUrl": {
+        "description": "validator error message when user does not enter a absolute url."
+    },
+    "loadFromUrlErrorInvalidUrl": "请输入一个有效的链接。",
+    "@loadFromUrlErrorInvalidUrl": {
+        "description": "validator error message hwen user enters a url which could not be parsed."
+    },
+    "linuxAppArmorWarning": "AuthPass 需要与 Secret Service 通信的权限来向云存储保存数据。\n请运行以下命令：",
+    "@linuxAppArmorWarning": {
+        "description": "On linux when user has not given AuthPass permission to connect to secret service he has to execute a command on the console."
+    },
+    "cancel": "取消",
+    "@cancel": {
+        "description": "button label for cancelling an action."
+    },
+    "errorLoadFileFromSourceTitle": "打开文件时出错。",
+    "@errorLoadFileFromSourceTitle": {
+        "description": "error title when user selects a file which can't be downloaded."
+    },
+    "errorLoadFileFromSourceBody": "无法打开 {source}。\n{error}",
+    "@errorLoadFileFromSourceBody": {
+        "description": "error body when user selects a file which can't be downloaded.",
+        "placeholders": {
+            "source": {},
+            "error": {}
+        }
+    },
+    "errorUnlockFileTitle": "无法打开文件",
+    "@errorUnlockFileTitle": {
+        "description": "generic error when opening a file (dialog title)",
+        "context": "credential screen"
+    },
+    "errorUnlockFileBody": "尝试打开文件时发生未知错误。 {error}",
+    "@errorUnlockFileBody": {
+        "description": "generic error when opening a file (description)",
+        "context": "credential screen",
+        "placeholders": {
+            "error": {
+                "description": "Error details."
+            }
+        }
+    },
+    "dialogContinue": "下一步",
+    "@dialogContinue": {
+        "description": "Dialog action to continue to next step (e.g. credential screen when finished with master password)"
+    },
+    "dialogSendErrorReport": "发送错误报告",
+    "@dialogSendErrorReport": {
+        "description": "action button in error dialogs to send email to support with log file.",
+        "context": "error dialog"
+    },
+    "dialogReportErrorForum": "在论坛/帮助中报告错误",
+    "@dialogReportErrorForum": {
+        "description": "action button in error dialog to open forum and create new topic."
+    },
+    "groupFilterDescription": "选择要显示的分组",
+    "@groupFilterDescription": {
+        "description": "Description shown in the group list for filtering (e.g. app drawer)",
+        "context": "group filter"
+    },
+    "groupFilterSelectAll": "全选",
+    "@groupFilterSelectAll": {
+        "context": "group filter"
+    },
+    "groupFilterDeselectAll": "取消全选",
+    "@groupFilterDeselectAll": {
+        "context": "group filter"
+    },
+    "createSubgroup": "创建下级分组",
+    "@createSubgroup": {
+        "description": "menu action: create nested group inside another group"
+    },
+    "editAction": "编辑",
+    "@editAction": {
+        "description": "menu action: edit item (e.g. delete a group)"
+    },
+    "mailboxEnableLabel": "(重新)启用",
+    "@mailboxEnableLabel": {
+        "description": ""
+    },
+    "mailboxEnableHint": "此邮箱继续接收邮件",
+    "@mailboxEnableHint": {
+        "description": ""
+    },
+    "mailboxDisableLabel": "停用",
+    "@mailboxDisableLabel": {
+        "description": ""
+    },
+    "mailboxDisableHint": "此邮箱停止接收邮件",
+    "@mailboxDisableHint": {
+        "description": ""
+    },
+    "mailListNoMail": "你还没有部署任何代理邮箱",
+    "@mailListNoMail": {
+        "description": ""
+    },
+    "mailboxLabelPrefixForEntry": "条目： {entryLabel}",
+    "@mailboxLabelPrefixForEntry": {
+        "description": "when a mailbox was created for a (password) entry.",
+        "placeholders": {
+            "entryLabel": {
+                "description": "The label of the entry this mailbox was created for"
+            }
+        }
+    },
+    "mailboxLabelPrefixUnknownEntry": "未知条目: {entryUuid}",
+    "@mailboxLabelPrefixUnknownEntry": {
+        "description": "when a mailbox was created for password entry which has been deleted or is otherwise not in the currently opened password files.",
+        "placeholders": {
+            "entryUuid": {
+                "description": "The internal id of the entry which was no tfound"
+            }
+        }
+    },
+    "mailboxLabelPrefixCreatedAt": "创建于： {dateTime}",
+    "@mailboxLabelPrefixCreatedAt": {
+        "description": "When a mailbox was not created for an entry and has no label, the creation date is shown.",
+        "placeholders": {
+            "dateTime": {}
+        }
+    },
+    "masterPasswordDescription": "主密码用于加密您的密码数据库。请 务 必 记住它，因为它无法恢复。",
+    "@masterPasswordDescription": {
+        "description": ""
+    },
+    "unsavedChangesWarningTitle": "稍等！",
+    "@unsavedChangesWarningTitle": {
+        "description": ""
+    },
+    "unsavedChangesWarningBody": "更改没被保存，要取消更改吗？",
+    "@unsavedChangesWarningBody": {
+        "description": ""
+    },
+    "unsavedChangesDiscardActionLabel": "放弃更改",
+    "@unsavedChangesDiscardActionLabel": {
+        "description": ""
+    },
+    "deletePermanentlyAction": "彻底删除",
+    "@deletePermanentlyAction": {
+        "description": "menu action: delete an item permanently from the file (only shown for entries/groups already in the recycle bin."
+    },
+    "restoreFromRecycleBinAction": "恢复",
+    "@restoreFromRecycleBinAction": {
+        "description": "menu action: restore an entry/group which was moved into the recycle bin."
+    },
+    "deleteAction": "删除",
+    "@deleteAction": {
+        "description": "menu action: delete item (e.g. delete a group)"
+    },
+    "deletedEntry": "条目已删除",
+    "@deletedEntry": {
+        "description": "Confirmation when a password entry was deleted (ie. moved to recycle bin)"
+    },
+    "successfullyDeletedGroup": "已删除分组。",
+    "@successfullyDeletedGroup": {
+        "description": "snackbar after deleting a group."
+    },
+    "undoButtonLabel": "撤消",
+    "@undoButtonLabel": {
+        "description": "undo action label (e.g. in a snackbar after deleting a group, or some other action)"
+    },
+    "saveButtonLabel": "保存",
+    "@saveButtonLabel": {
+        "description": "save file, for example button displayed in entry details"
+    },
+    "webDavSettings": "配置 WebDAV",
+    "@webDavSettings": {
+        "description": "dialog title for entering WebDAV settings."
+    },
+    "webDavUrlLabel": "链接地址",
+    "@webDavUrlLabel": {
+        "description": ""
+    },
+    "webDavUrlHelperText": "WebDAV 服务的 Url",
+    "@webDavUrlHelperText": {
+        "description": ""
+    },
+    "webDavUrlValidatorError": "请输入网址",
+    "@webDavUrlValidatorError": {
+        "description": ""
+    },
+    "webDavUrlValidatorInvalidUrlError": "请输入以 http:// 或 https://开头的完整链接",
+    "@webDavUrlValidatorInvalidUrlError": {
+        "description": ""
+    },
+    "webDavAuthUser": "用户名",
+    "@webDavAuthUser": {
+        "description": ""
+    },
+    "webDavAuthPassword": "密码",
+    "@webDavAuthPassword": {
+        "description": ""
+    },
+    "mergeSuccessDialogTitle": "合并密码数据库成功",
+    "@mergeSuccessDialogTitle": {
+        "description": ""
+    },
+    "mergeSuccessDialogMessage": "保存 {fileName} 时检测到冲突, 它已成功与远程文件合并: \n\n{mergeSummary}",
+    "@mergeSuccessDialogMessage": {
+        "description": "",
+        "placeholders": {
+            "fileName": {},
+            "mergeSummary": {}
+        }
+    },
+    "forDetailsVisitUrl": "详情请访问 {url}",
+    "@forDetailsVisitUrl": {
+        "description": "",
+        "placeholders": {
+            "url": {}
+        }
+    },
+    "authPassCloudAuthEmailInputLabel": "请输入邮箱地址以开始注册或登录",
+    "@authPassCloudAuthEmailInputLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthEmailInvalid": "请输入有效的电子邮件地址。",
+    "@authPassCloudAuthEmailInvalid": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailButtonLabel": "请确认地址",
+    "@authPassCloudAuthConfirmEmailButtonLabel": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmail": "请检查您的邮箱以确认您的代理邮件地址。",
+    "@authPassCloudAuthConfirmEmail": {
+        "description": ""
+    },
+    "authPassCloudAuthConfirmEmailExplain": "保持此界面打开，直到您成功打开从电子邮件收到的链接。",
+    "@authPassCloudAuthConfirmEmailExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendExplain": "如果您没有收到电子邮件，请检查您的垃圾邮件。您也可以重新发送请求。",
+    "@authPassCloudAuthResendExplain": {
+        "description": ""
+    },
+    "authPassCloudAuthResendButtonLabel": "重新发送请求",
+    "@authPassCloudAuthResendButtonLabel": {
+        "description": ""
+    },
+    "permanentlyDeleteEntryConfirm": "这将永久删除 <{title}> 条目，且不能撤消。确定要这么做吗？",
+    "@permanentlyDeleteEntryConfirm": {
+        "description": "shown to force user to acknowledge delete before a entry will be permanently deleted.",
+        "placeholders": {
+            "title": {}
+        }
+    },
+    "permanentlyDeletedEntrySnackBar": "条目已彻底删除！",
+    "@permanentlyDeletedEntrySnackBar": {
+        "description": "snackbar confirming that the entry was deleted."
+    },
+    "initialNewGroupName": "新建分组",
+    "@initialNewGroupName": {
+        "description": "initial name of groups when user creates a new one."
+    },
+    "deleteGroupErrorTitle": "删除失败！",
+    "@deleteGroupErrorTitle": {
+        "description": "Title of error dialog when group could not be deleted."
+    },
+    "deleteGroupErrorBodyContainsGroup": "此分组中还包含分组！目前您只能删除空群组。",
+    "@deleteGroupErrorBodyContainsGroup": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "deleteGroupErrorBodyContainsEntries": "这个分组里面还有密码！目前你只能删除空分组",
+    "@deleteGroupErrorBodyContainsEntries": {
+        "description": "Body of error dialog when a group can't be deleted because it is not empty."
+    },
+    "groupListAppBarTitle": "分组",
+    "@groupListAppBarTitle": {
+        "description": "title in the app bar for the groups list"
+    },
+    "groupListFilterAppbarTitle": "按分组筛选",
+    "@groupListFilterAppbarTitle": {
+        "description": "title in the app bar for group lists when displayed for filtering password list"
+    },
+    "clearQuickUnlock": "清除生物识别记录（如指纹）",
+    "@clearQuickUnlock": {
+        "description": ""
+    },
+    "clearQuickUnlockSubtitle": "删除已保存的主密码",
+    "@clearQuickUnlockSubtitle": {
+        "description": ""
+    },
+    "unlock": "解锁",
+    "@unlock": {
+        "description": ""
+    },
+    "closePasswordFiles": "关闭密码文件",
+    "@closePasswordFiles": {
+        "description": "delete quick unlock (passwords stored in biometric storage)"
+    },
+    "clearQuickUnlockSuccess": "已取消生物识别解锁",
+    "@clearQuickUnlockSuccess": {
+        "description": ""
+    },
+    "diacOptIn": "想在本应用内收到我们的新闻和问卷调查吗？",
+    "@diacOptIn": {},
+    "diacOptInSubtitle": "会定时连接网络获取新闻和问卷。",
+    "@diacOptInSubtitle": {},
+    "enableAutofillDebug": "启用自动填充的调试模式",
+    "@enableAutofillDebug": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "enableAutofillDebugSubtitle": "为每个输入字段显示调试信息叠加层",
+    "@enableAutofillDebugSubtitle": {
+        "description": "only visible in debug build. Preference to enable Auto-Fill Debugging."
+    },
+    "createPasswordDatabase": "新建密码库",
+    "@createPasswordDatabase": {
+        "description": ""
+    },
+    "nameNewPasswordDatabase": "这是你崭新的密码库！给它起个好名字",
+    "@nameNewPasswordDatabase": {
+        "description": "creating new kdbx file, prompt"
+    },
+    "validatorNameMissing": "为您的新密码库起一个名字：",
+    "@validatorNameMissing": {
+        "description": "Error message when no password database name is given."
+    },
+    "masterPasswordHelpText": "设置一个安全的主密码。请务必牢记。",
+    "@masterPasswordHelpText": {
+        "description": "DEPRECATED FOR NOW help text for master password when creating new password database"
+    },
+    "inputMasterPasswordText": "主密码",
+    "@inputMasterPasswordText": {
+        "description": "Creating new file: input field for master password"
+    },
+    "masterPasswordMissingCreate": "请务必输入一个既安全又好记的密码~",
+    "@masterPasswordMissingCreate": {
+        "description": "Text displayed when master password is empty while creating new password database"
+    },
+    "createDatabaseAction": "创建密码库",
+    "@createDatabaseAction": {
+        "description": "Label for button to create new database"
+    },
+    "databaseExistsError": "已经有同名的文件了呀~",
+    "@databaseExistsError": {
+        "description": "dialog title for error message when creating a new database with a name which already exists."
+    },
+    "databaseExistsErrorDescription": "创建失败了！这个位置已经有了同名的文件了，请换一个名字吧。\n出错位置：{filePath}",
+    "@databaseExistsErrorDescription": {
+        "description": "dialog body for error message when creating a new database with a name which already exists.",
+        "placeholders": {
+            "filePath": {
+                "description": "file path which already existed."
+            }
+        }
+    },
+    "databaseCreateDefaultName": "我的密码",
+    "@databaseCreateDefaultName": {
+        "description": "Default database name when creating a new database file. (WITHOUT .kdbx extension)"
+    },
+    "preferenceDynamicLoadIcons": "联网加载图标",
+    "@preferenceDynamicLoadIcons": {
+        "description": "preferences: dynamically load website icons"
+    },
+    "preferenceDynamicLoadIconsSubtitle": "将会向/ {urlFieldName} /发送未加密的http请求来获取网页图标",
+    "@preferenceDynamicLoadIconsSubtitle": {
+        "description": "preferences: dynamically load website icons help text.",
+        "placeholders": {
+            "urlFieldName": {
+                "example": "Website"
+            }
+        }
+    },
+    "passwordScore": "强度： {score} / 4",
+    "@passwordScore": {
+        "description": "choosing a master password - calculated password strength.",
+        "placeholders": {
+            "score": {
+                "description": "integer of the score.",
+                "example": "3"
+            }
+        }
+    },
+    "entryInfoFile": "文件：",
+    "@entryInfoFile": {
+        "description": ""
+    },
+    "entryInfoGroup": "分组:",
+    "@entryInfoGroup": {
+        "description": ""
+    },
+    "entryInfoLastModified": "最后修改时间：",
+    "@entryInfoLastModified": {
+        "description": ""
+    },
+    "movedEntryToGroup": "移动条目到 {groupName}",
+    "@movedEntryToGroup": {
+        "description": "",
+        "placeholders": {
+            "groupName": {
+                "description": "Name of the group the entry was moved to."
+            }
+        }
+    },
+    "sizeBytes": "{count} 字节",
+    "@sizeBytes": {
+        "description": "",
+        "placeholders": {
+            "count": {
+                "description": "file size in bytes",
+                "example": "123"
+            }
+        }
+    },
+    "entryAddAttachment": "添加附件",
+    "@entryAddAttachment": {
+        "description": ""
+    },
+    "entryAttachmentSizeWarning": "附件可以是任何文件，它将与密码文件结合，这会大大增加打开/保存密码所需的时间。",
+    "@entryAttachmentSizeWarning": {
+        "description": ""
+    },
+    "iconPngSizeWarning": "自定义图标将合并入密码数据库。这会增加打开/保存密码所需的时间。",
+    "@iconPngSizeWarning": {
+        "description": "Warning shown when user selects a large png file as custom icon."
+    },
+    "notPngError": "只支持PNG格式",
+    "@notPngError": {
+        "description": "Error when user selects an unsupported file as custom icon."
+    },
+    "entryAddField": "添加项目",
+    "@entryAddField": {
+        "description": ""
+    },
+    "entryCustomField": "自定义字段",
+    "@entryCustomField": {
+        "description": ""
+    },
+    "entryCustomFieldTitle": "添加新自定义字段",
+    "@entryCustomFieldTitle": {
+        "description": ""
+    },
+    "entryCustomFieldInputLabel": "输入字段名称",
+    "@entryCustomFieldInputLabel": {
+        "description": ""
+    },
+    "swipeCopyField": "复制项目",
+    "@swipeCopyField": {
+        "description": ""
+    },
+    "fieldRename": "重命名",
+    "@fieldRename": {
+        "description": ""
+    },
+    "fieldGeneratePassword": "生成随机安全密码…",
+    "@fieldGeneratePassword": {
+        "description": ""
+    },
+    "fieldProtect": "锁定",
+    "@fieldProtect": {
+        "description": ""
+    },
+    "fieldUnprotect": "取消锁定",
+    "@fieldUnprotect": {
+        "description": ""
+    },
+    "fieldPresent": "显示QR码",
+    "@fieldPresent": {
+        "description": ""
+    },
+    "fieldGenerateEmail": "生成电子邮箱地址",
+    "@fieldGenerateEmail": {
+        "description": ""
+    },
+    "onboardingBackToOnboarding": "时间回溯",
+    "@onboardingBackToOnboarding": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingBackToOnboardingSubtitle": "我想重新签订契约\n ~（ >ω･）～☆",
+    "@onboardingBackToOnboardingSubtitle": {
+        "description": "Context menu entry which reverts to onboarding"
+    },
+    "onboardingHeadline": "和我签订契约,\n守护密码吧！",
+    "@onboardingHeadline": {
+        "description": ""
+    },
+    "onboardingQuestion": "请问您之前用过本软件\n或者兼容的密码管理器吗？\n（KeepassDX、KeepassXC等）",
+    "@onboardingQuestion": {
+        "description": ""
+    },
+    "onboardingYesOpenPasswords": "再续前缘：\n提供kdbx文件",
+    "@onboardingYesOpenPasswords": {
+        "description": ""
+    },
+    "onboardingNoCreate": "咱们还是从零开始吧！",
+    "@onboardingNoCreate": {
+        "description": ""
+    },
+    "backupButton": "保存到云端",
+    "@backupButton": {
+        "description": "Button that is displayed in backup warnings"
+    },
+    "dismissBackupButton": "这次不要",
+    "@dismissBackupButton": {
+        "description": "Button that is displayed in backup warnings to dismiss the warning"
+    },
+    "backupWarningMessage": "{databasename} 密码库中的密码没有上传到云端！",
+    "@backupWarningMessage": {
+        "description": "Warning message that is displayed in backup warnings",
+        "placeholders": {
+            "databasename": {
+                "example": "PasswordDatabase"
+            }
+        }
+    },
+    "saveAs": "保存到...",
+    "@saveAs": {
+        "description": "Save as text"
+    },
+    "saving": "正在保存...",
+    "@saving": {
+        "description": "Saving text"
+    },
+    "increaseValue": "增加",
+    "@increaseValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+    },
+    "decreaseValue": "减少",
+    "@decreaseValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+    },
+    "resetValue": "重置",
+    "@resetValue": {
+        "description": "Preferences value modifier (Text Scale Factor/Visual Density)"
+    },
+    "cloudStorageAppBarTitle": "云存储 - {cloudStorageName}",
+    "@cloudStorageAppBarTitle": {
+        "description": "app bar title for opening/saving to cloud storage.",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            }
+        }
+    },
+    "cloudStorageLogInCaption": "正在跳转... 请在稍后的界面授权我访问云存储~",
+    "@cloudStorageLogInCaption": {
+        "description": ""
+    },
+    "cloudStorageLogInCode": "输入验证码",
+    "@cloudStorageLogInCode": {
+        "description": "for oauth authentication user has to enter auth code - this is the label for the text field."
+    },
+    "launchUrlError": "无法访问链接： {url}",
+    "@launchUrlError": {
+        "description": "",
+        "placeholders": {
+            "url": {}
+        }
+    },
+    "cloudStorageLogInActionLabel": "登录 {cloudStorageName} 账号",
+    "@cloudStorageLogInActionLabel": {
+        "description": "when the user has not authenticated yet, he will see this button to start the login flow of a cloud storage backend.",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            }
+        }
+    },
+    "cloudStorageAuthCodeDialogTitle": "{cloudStorageName} - 身份验证",
+    "@cloudStorageAuthCodeDialogTitle": {
+        "description": "",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            }
+        }
+    },
+    "cloudStorageAuthCodeLabel": "身份验证码",
+    "@cloudStorageAuthCodeLabel": {
+        "description": ""
+    },
+    "cloudStorageAuthErrorTitle": "抱歉，验证出错了，再试一次？",
+    "@cloudStorageAuthErrorTitle": {
+        "description": ""
+    },
+    "cloudStorageAuthErrorMessage": "尝试认证到 {cloudStorageName} 时出错： \n{errorMessage}",
+    "@cloudStorageAuthErrorMessage": {
+        "description": "",
+        "placeholders": {
+            "cloudStorageName": {
+                "example": "Dropbox"
+            },
+            "errorMessage": {}
+        }
+    },
+    "cloudStorageSearchBoxLabel": "路漫漫其修远兮...",
+    "@cloudStorageSearchBoxLabel": {
+        "description": ""
+    },
+    "cloudStorageItemsInFolder": "共有 {itemCount} 个条目。",
+    "@cloudStorageItemsInFolder": {
+        "description": "",
+        "placeholders": {
+            "itemCount": {}
+        }
+    },
+    "mailSubject": "主题",
+    "@mailSubject": {
+        "description": ""
+    },
+    "mailFrom": "发件人：",
+    "@mailFrom": {
+        "description": ""
+    },
+    "mailDate": "日期:",
+    "@mailDate": {
+        "description": ""
+    },
+    "mailMailbox": "全部代理邮箱",
+    "@mailMailbox": {
+        "description": ""
+    },
+    "mailNoData": "没有内容，或被加密/已损坏",
+    "@mailNoData": {
+        "description": "Message shown when email text body is empty (or can't be decoded)"
+    },
+    "mailMailboxesTitle": "全部代理邮箱",
+    "@mailMailboxesTitle": {
+        "description": "Title of the screen showing all available mailboxes."
+    },
+    "mailboxCreateButtonLabel": "新建",
+    "@mailboxCreateButtonLabel": {
+        "description": "FAB label to create a new mailbox."
+    },
+    "mailboxNameInputDialogTitle": "为新邮箱命名（可选）",
+    "@mailboxNameInputDialogTitle": {
+        "description": "title of the dialog asking for a mailbox label/name"
+    },
+    "mailboxNameInputLabel": "(内部) 名称",
+    "@mailboxNameInputLabel": {
+        "description": "Label for the text field asking for a label for a mailbox, while creating it."
+    },
+    "mailScreenTitle": "魔钥 - 代理邮箱",
+    "@mailScreenTitle": {
+        "description": "title for the screen showing available emails"
+    },
+    "mailTabBarTitleMailbox": "邮箱列表",
+    "@mailTabBarTitleMailbox": {
+        "description": "title for the tab showing list of mailboxes."
+    },
+    "mailTabBarTitleMail": "邮件列表",
+    "@mailTabBarTitleMail": {
+        "description": "title for the tab showing list of mails."
+    },
+    "mailMailboxListEmpty": "还没有部署任何代理邮箱",
+    "@mailMailboxListEmpty": {
+        "description": ""
+    },
+    "mailMailboxAddressCopied": "已复制邮箱地址到剪贴板： {mailboxAddress}",
+    "@mailMailboxAddressCopied": {
+        "description": "Success message when mailbox email address was copied to clipboard.",
+        "placeholders": {
+            "mailboxAddress": {
+                "example": "dkasdfiasdfi@mail.authpass.app"
+            }
+        }
+    },
+    "errorWhileSavingTitle": "保存时出错！",
+    "@errorWhileSavingTitle": {
+        "description": "title for error dialog shown when an error occurs while saving"
+    },
+    "errorWhileSavingBody": "无法保存文件： {errorMessage}",
+    "@errorWhileSavingBody": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "databaseDoesNotSupportSaving": "抱歉，无法保存到此数据库。请打开本地数据库文件，或者选择“另存为”。",
+    "@databaseDoesNotSupportSaving": {
+        "description": "keepass files loaded through a URL can't be saved."
+    },
+    "otpInvalidKeyTitle": "无效密钥！",
+    "@otpInvalidKeyTitle": {
+        "description": "dialog title for an invalid key of a one time password (OTP/TOTP)"
+    },
+    "otpInvalidKeyBody": "抱歉，此代码无效，需要base32格式的二步验证码",
+    "@otpInvalidKeyBody": {
+        "description": ""
+    },
+    "otpPromptTitle": "启用二步验证...",
+    "@otpPromptTitle": {
+        "description": ""
+    },
+    "otpPromptHelperText": "请输入TOTP密钥",
+    "@otpPromptHelperText": {
+        "description": ""
+    },
+    "otpErrorMessageGeneration": "生成邀请码时出错： {errorMessage}",
+    "@otpErrorMessageGeneration": {
+        "description": "",
+        "placeholders": {
+            "errorMessage": {}
+        }
+    },
+    "otpCopySecretActionLabel": "复制TOTP密钥",
+    "@otpCopySecretActionLabel": {
+        "description": ""
+    },
+    "otpEntryLabel": "二步验证-验证码",
+    "@otpEntryLabel": {
+        "description": "The label for entries which show a one time token for a TOTP"
+    },
+    "entryFieldProtected": "受保护区域。点击以显示。",
+    "@entryFieldProtected": {
+        "description": ""
+    },
+    "entryFieldActionRevealField": "展开受保护区域",
+    "@entryFieldActionRevealField": {
+        "description": ""
+    },
+    "entryAttachmentOpenActionLabel": "打开",
+    "@entryAttachmentOpenActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentShareActionLabel": "分享",
+    "@entryAttachmentShareActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentShareSubject": "附件",
+    "@entryAttachmentShareSubject": {
+        "description": "the 'subject' passed to the system when sharing an attachment. "
+    },
+    "entryAttachmentSaveActionLabel": "保存到设备",
+    "@entryAttachmentSaveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveActionLabel": "移除",
+    "@entryAttachmentRemoveActionLabel": {
+        "description": ""
+    },
+    "entryAttachmentRemoveConfirm": "真的要删除 {attachmentLabel} 吗？",
+    "@entryAttachmentRemoveConfirm": {
+        "description": "",
+        "placeholders": {
+            "attachmentLabel": {}
+        }
+    },
+    "menuItemAuthPassCloudMailboxes": "魔钥 - 代理邮箱",
+    "@menuItemAuthPassCloudMailboxes": {
+        "description": ""
+    },
+    "newGroupDialogTitle": "新建分组",
+    "@newGroupDialogTitle": {
+        "description": ""
+    },
+    "groupActionDelete": "删除",
+    "@groupActionDelete": {
+        "description": ""
+    },
+    "shareCodeLoadingProgress": "召唤真理之匙...",
+    "@shareCodeLoadingProgress": {
+        "description": ""
+    },
+    "shortcutCopyUsername": "复制登录帐号",
+    "@shortcutCopyUsername": {
+        "description": ""
+    },
+    "shortcutCopyPassword": "复制密码",
+    "@shortcutCopyPassword": {
+        "description": ""
+    },
+    "shortcutGeneratePassword": "生成随机密码",
+    "@shortcutGeneratePassword": {
+        "description": ""
+    },
+    "shortcutOpenUrl": "打开链接",
+    "@shortcutOpenUrl": {
+        "description": ""
+    },
+    "unexpectedError": "意外错误: {error}",
+    "@unexpectedError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    }
+}

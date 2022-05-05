@@ -1,0 +1,39 @@
+name: authpass
+icon: snap/gui/authpass.png
+summary: Open Source Password Manager with Keepass file support.
+description: |
+  Easily and securely keep track of all your Passwords!
+
+  AuthPass is a stand alone password manager with support for the popular 
+  Keepass (kdbx 3.x AND kdbx 4.x 🎉️) format. Store your passwords, share 
+  across all your devices and easily find them whenever you need to login.
+
+
+base: core18
+adopt-info: authpass
+#grade: devel # must be 'stable' to release into candidate/stable channels
+grade: stable
+confinement: strict
+
+parts:
+  authpass:
+    plugin: dump
+    source: https://data.authpass.app/data/artifacts/authpass-linux-latest.tar.gz
+    override-pull: |
+      snapcraftctl pull
+      snapcraftctl set-version $(cat version.txt)
+    stage-packages:
+      - libegl-mesa0
+      - libkeybinder-3.0-0
+
+apps:
+  authpass:
+    command: authpass
+    extensions: [gnome-3-28]
+    plugs:
+      - opengl
+      - home
+      - network
+      - password-manager-service
+    environment:
+      __EGL_VENDOR_LIBRARY_DIRS: $SNAP/usr/share/glvnd/egl_vendor.d/

@@ -1,0 +1,18 @@
+name: horizontal_calendar_widget
+description: Easy to use, highly customizable horizontal calendar. Single or up to x days selection, with Internationalization support.
+version: 1.0.2
+homepage: https://github.com/solutelabs/horizontal_calendar
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

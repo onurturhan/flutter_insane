@@ -1,0 +1,35 @@
+name: wallpapers
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  carousel_slider: 3.0.0
+  dio: 4.0.0
+  path_provider: 2.0.1
+  shared_preferences: 2.0.5
+  provider: 5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+        - asset: assets/fonts/JosefinSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/JosefinSans-Bold.ttf
+          weight: 700

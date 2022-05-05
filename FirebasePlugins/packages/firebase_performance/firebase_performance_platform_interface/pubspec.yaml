@@ -1,0 +1,19 @@
+name: firebase_performance_platform_interface
+description:  A common platform interface for the firebase_performance plugin.
+version: 0.1.1+5
+homepage: https://firebase.flutter.dev/docs/performance/overview
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  firebase_core: ^1.10.0
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.1
+
+dev_dependencies:
+  firebase_core_platform_interface: ^4.3.0
+  flutter_test:
+    sdk: flutter

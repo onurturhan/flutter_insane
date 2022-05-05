@@ -1,0 +1,286 @@
+name: authpass
+description: Password Manager with support for kdbx 3.x and 4.x
+publish_to: none
+version: 1.9.5+160
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  #  kdbx: ^0.2.0
+  kdbx:
+    path: ../deps/kdbx.dart
+  argon2_ffi: ^1.0.0
+  simple_form_field_validator: ^1.0.0
+#    git:
+#      url: https://github.com/hpoul/flutter_utils.git
+#      path: packages/simple_form_field_validator
+#      ref: 4158191244681ac259a7bb060ef0b8a98db502d2
+  logging: ^1.0.0
+  logging_appenders: ^1.0.0
+  diac_client:
+    path: ../deps/diac/diac_client
+
+  synchronized: ^3.0.0
+#  file_picker: ^1.6.2
+  file_picker_writable: ^2.0.0+1
+  #  file_picker_writable:
+#    path: /Users/herbert/dev/file_picker_writable
+#  file_picker_writable:
+#    git:
+#      url: https://github.com/hpoul/file_picker_writable.git
+#      ref: fc45c929361d9ace37e5f7b2fae756b98e85b223
+  json_annotation: ^4.0.0
+  freezed_annotation: ^0.14.1
+  built_value: ^8.0.6
+  simple_json_persistence: ^2.0.1
+  provider: ^6.0.0
+  flutter_hooks: ^0.18.0
+  http: ^0.13.0
+  meta: '>=1.0.0 <2.0.0'
+  clock: ^1.1.0
+  intl: ^0.17.0
+  path: ^1.8.0
+  file: ^6.1.2
+#  clipboard_manager: ^0.0.4
+
+  flutter_async_utils: ^1.0.0+1
+  flutter_svg: ">=0.20.0-nullsafety.3 <1.0.0"
+  #usage: ^3.4.1
+  usage:
+    git:
+      url: https://github.com/hpoul/usage.git
+      ref: custom-user-agent-rebased
+  package_info_plus: ^1.0.3
+#  package_info: ^0.4.0+13
+#  package_info_macos:
+#    git:
+#      url: https://github.com/authpass/package_info_macos.git
+##    path: ../deps/package_info_macos
+  device_info_plus: ^2.1.0
+  path_provider: ^2.0.1
+#  path_provider_macos: ^0.0.4+4
+#  path_provider_linux: ">=0.0.1 <2.0.0"
+  #path_provider_windows: '>=0.0.1+2 <2.0.0'
+  analytics_event: ^1.0.0
+  autofill_service:
+    path: ../deps/autofill_service
+
+  flutter_colorpicker: ^0.5.0
+  flutter_speed_dial: ^4.3.0
+  flutter_email_sender: ^5.0.0
+  flutter_store_listing: ^0.2.1
+
+  biometric_storage: ^3.0.1-dev.1
+#  biometric_storage:
+#    path: ../deps/biometric_storage
+  uuid: ^3.0.1
+  url_launcher: ^6.0.2
+  font_awesome_flutter: ^9.0.0
+  otp: ^3.0.0-nullsafety.0
+  pointycastle: ^3.3.4
+  #zxcvbn: ^0.0.1
+  zxcvbn: # null-safety https://github.com/careapp-inc/zxcvbn-dart/pull/7
+    git:
+      url: https://github.com/authpass/zxcvbn-dart.git
+      ref: 7f000c71c176162bbfc32a45a0800bca47ffb1a0
+
+
+  # UI Utilities and Widgets
+  badges: ^2.0.0-nullsafety.1
+  qr_flutter: ^4.0.0
+  another_flushbar: ^1.10.20
+  filesystem_picker: ^2.0.0-nullsafety.0
+  #tinycolor: ^1.0.3
+  tinycolor: # null-safety https://github.com/FooStudio/tinycolor/pull/13
+    git:
+      url: https://github.com/authpass/tinycolor.git
+      ref: 87f654ce7b79daddfbe7cdf7b7d9bb27574a8b89
+
+  # (Small) utility packages
+  quiver: ">=3.0.0-nullsafety.3 <4.0.0"
+  tuple: ^2.0.0
+  rxdart: ^0.27.0
+  charcode: ^1.1.3
+  recase: ^4.0.0
+  # collection utilities:
+  flinq: ^2.0.2
+  supercharged: ^2.0.0
+
+  string_literal_finder_annotations: ^1.0.0
+
+  # WebDAV
+  http_auth: ^1.0.0
+
+  # google drive
+  googleapis: ^4.0.0
+  googleapis_auth: ^1.0.0
+
+  # dropbox
+  #oauth2: ^1.3.0
+  oauth2:
+    #path: /Users/herbert/dev/patches/oauth2
+    git:
+      url: https://github.com/authpass/oauth2.git
+      ref: 595e5829bd3a36a69999a99473d3aad6fd8febc8
+
+  # FDE
+  file_selector: ^0.8.2
+  file_selector_macos: ^0.0.4
+  file_selector_windows: ^0.0.2
+  file_selector_linux: ^0.0.2
+
+  macos_secure_bookmarks: ^0.2.0
+
+  # UI Utils
+  percent_indicator: ^3.3.0-nullsafety.1
+
+  # Plugins
+  #flutter_barcode_scanner: ^0.1.7
+#  barcode_scan: ^3.0.1 <-- not working (protobuf damnit)
+#  barcode_scan:
+#    git:
+#      url: https://github.com/RohitKumarMishra/flutter_barcode_reader.git
+#      ref: 85cfc7efee91c3444d24435486cf292a32f04499
+  barcode_scan2: ^4.1.3
+  open_file: ^3.2.1
+  flutter_windowmanager: ^0.2.0
+
+  mime: ^1.0.0
+  pedantic: ^1.9.2
+  ffi: ^1.0.0
+  # AuthPass Cloud email deps
+  enough_mail: ^1.2.2
+  flutter_widget_from_html: ^0.7.0-dev.2021061301
+#  flutter_html: #^2.0.0-nullsafety.1
+#    git:
+#      url: https://github.com/Sub6Resources/flutter_html.git
+#      ref: 957c9f833e70d6a74ae7969d6d7e341d765046d6
+  flutter_linkify: ^5.0.2
+#  openapi_base: ^0.1.5+5
+  flutter_cache_manager: ^3.0.0-nullsafety.1
+  cached_network_image: ^3.0.0-nullsafety
+  authpass_cloud_shared:
+    path: ../deps/authpass-cloud/packages/authpass_cloud_shared
+  # windows updater
+  winsparkle_flutter:
+    git:
+      url: https://github.com/authpass/winsparkle_flutter.git
+      ref: 1e124a5056709c00ec05f2c1e3bd8c2084fe962b
+  share: ^2.0.1
+  collection: ^1.15.0-nullsafety.4
+
+  flutter_markdown: ^0.6.5
+
+  hotkey_manager: ^0.1.0
+#  window_manager: ^0.0.3
+  window_manager:
+    git:
+      url: https://github.com/authpass/window_manager.git
+      ref: remove-web
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  mockito: ^5.0.7
+#   https://github.com/flutter/flutter/issues/62240
+#  analyzer: ^0.39.17
+  json_serializable: ^5.0.0
+  build_runner: ^2.0.2
+#  builder_static_text: ^0.1.0
+  built_value_generator: ^8.0.6
+  analytics_event_gen: ^1.1.1+1
+  freezed: ^0.14.1+3
+  plugin_platform_interface: ^2.0.0
+  msix: ^2.1.3
+  flutter_lints: ^1.0.4
+  string_literal_finder: ^1.0.2
+  archive: ^3.1.2
+
+dependency_overrides:
+#  analytics_event_gen:
+#    path: /Users/herbert/dev/analytics_events/analytics_event_gen
+  # Until bug fix gets merged: https://github.com/flutter/packages/pull/433 (0.6.5)
+  kdbx:
+    path: ../deps/kdbx.dart
+#  openapi_base:
+#    path: /Users/herbert/dev/openapi_dart/packages/openapi_base
+#  flutter_async_utils:
+#    path: /Users/herbert/dev/flutter_async_utils
+
+
+#  openapi_base:
+#    path: /Users/herbert/dev/authpass-cloud/deps/openapi_dart/packages/openapi_base
+
+#  url_launcher_fde:
+#    path: /Users/herbert/dev/flutter/flutter-desktop-embedding/plugins/flutter_plugins/url_launcher_fde
+#  file_chooser:
+#    path: /Users/herbert/dev/flutter/flutter-desktop-embedding/plugins/file_chooser
+#  biometric_storage:
+#    path: ../deps/biometric_storage
+#  macos_secure_bookmarks:
+#    path: /Users/herbert/dev/macos_secure_bookmarks
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  generate: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  #  - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.otf
+        - asset: assets/fonts/Inter-Light.otf
+          weight: 300
+        - asset: assets/fonts/Inter-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Inter-Bold.otf
+          weight: 700
+    - family: JetBrainsMono
+      fonts:
+        - asset: assets/fonts/jetbrains/JetBrainsMono-Regular.ttf
+        - asset: assets/fonts/jetbrains/JetBrainsMono-Bold.ttf
+          weight: 700
+    - family: AuthPassIcons
+      fonts:
+       - asset: assets/fonts/AuthPassIcons.ttf
+msix_config:
+  display_name: AuthPass
+  publisher_display_name: CodeUX.design
+  identity_name: CodeUX.design.AuthPass
+  msix_version: 1.7.12.151
+#  certificate_path: C:\<PathToCertificate>\<MyCertificate.pfx>
+#  certificate_password: 1234 (require if using .pfx certificate)
+  publisher: CN=9A3091A5-8ED6-447B-8681-7F59FF7FE2BE
+  logo_path: ../snap/gui/authpass.png
+  start_menu_icon_path: ../snap/gui/authpass.png
+  tile_icon_path: ../snap/gui/authpass.png
+#  vs_generated_images_folder_path: C:\<PathToFolder>\icons
+  icons_background_color: transparent
+  architecture: x64
+  capabilities: 'internetClient'
+  store: true
+  languages: 'en-us,de,fr,he,id,it,pt-BR,sk,es,zh-CN,zh-TW'
+  file_extension: '.kdbx'

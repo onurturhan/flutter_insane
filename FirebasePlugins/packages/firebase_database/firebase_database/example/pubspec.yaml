@@ -1,0 +1,29 @@
+name: firebase_database_example
+description: Demonstrates how to use the firebase_database plugin.
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+  flutter: ">=1.9.1+hotfix.2"
+
+dependencies:
+  firebase_core:
+    path: ../../../firebase_core/firebase_core
+  firebase_database:
+    path: ../
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  firebase_core:
+    path: ../../../firebase_core/firebase_core
+  firebase_core_platform_interface:
+    path: ../../../firebase_core/firebase_core_platform_interface
+  firebase_core_web:
+    path: ../../../firebase_core/firebase_core_web
+  firebase_database:
+    path: ../
+  firebase_database_web:
+    path: ../../firebase_database_web
+
+flutter:
+  uses-material-design: true

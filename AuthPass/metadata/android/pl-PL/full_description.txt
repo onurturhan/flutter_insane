@@ -1,0 +1,15 @@
+<p>Łatwo i bezpieczne przechowuj wszystkie swoje hasła!</p>
+
+<p>AuthPass to menager haseł który wspiera sprawdzony i popularny format Keepass (kdbx). Przechowuj hasła na każdym z swoich urządzeń i korzystaj z nich kiedykolwiek potrzebujesz</p>
+
+<ul>
+<li>Wszystkie twoje hasła w jednym miejscu<li>
+<li>Wygeneruj bezpieczne losowe hasło dla każdego z twoich kont.</li>
+<li>Szybkie odblokowywanie przy pomocy biometrii (tylko android)</li>
+<li>Śledź swoje konta w Internecie.</li>
+<li>Aplikacja dostępna na Mac, iOS, Android, Linux oraz Windows.</li>
+<li>Open Source dostępny na https://github.com/authpass/authpass/</li>
+<li>Składki mile widziane ;-) (Zawsze szukam programistów, tłumaczy, osób piszących dokumentacje, projektantów UI, itp. :) ), po prostu dołącz do na nasz kanał Discord.</li>
+</ul>
+
+<p>Dołącz na nasz kanał Discord https://authpass.app/go/discord - W razie jakichkolwiek Problemów, aby zostawić informacje zwrotną, itp. lub po prostu dołącz by się przywitać .</p>

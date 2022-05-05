@@ -1,0 +1,43 @@
+name: contraflutterkit
+description: Flutter application built on top of contra wireframe kit.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  flutter_svg: ^0.21.0
+  flutter_staggered_grid_view: ^0.4.1
+  flutter_time_picker_spinner: ^2.0.0
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.20.1
+  google_maps_flutter: ^2.1.1
+  flutter_swiper: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+linter: ^1.15.0
+lint: ^1.7.2
+
+flutter:
+
+  assets:
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/shopping/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+  uses-material-design: true

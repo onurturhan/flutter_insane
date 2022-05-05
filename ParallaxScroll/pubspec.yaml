@@ -1,0 +1,28 @@
+name: flutter_parallax_scroll
+description: Parallax scroll app based on Stian's UI.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  rxdart: ^0.27.3
+  google_fonts: ^2.2.0
+  flutter_svg: ^1.0.3
+  quiver: ^3.0.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/

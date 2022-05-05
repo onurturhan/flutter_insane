@@ -1,0 +1,16 @@
+<p>Salve todas as suas senhas com facilidade e segurança!</p>
+
+<p>O AuthPass é um gerenciador de senhas independente com suporte ao formato do popular programa Keepass (kdbx). 
+Armazene suas senhas, compartilhe em todos os seus dispositivos e encontre-as facilmente sempre que você precisar fazer o login.</p>
+
+<ul>
+<li>Todas as suas senhas em um só lugar.<li>
+<li>Gere senhas aleatórias seguras para cada uma das suas contas.</li>
+<li>Desbloqueio Rápido protegido com bloqueio de dados biométricos (somente Android por enquanto)</li>
+<li>Mantenha o controle de suas contas na web.</li>
+<li>App disponível para Mac, iOS, Android, Linux e Windows.</li>
+<li>Open Source disponível em https://github.com/authpass/authpass/</li>
+<li>Contribuições são bem vindas e encorajadas ;-) (Sempre procurando desenvolvedores, tradutores, escritores de documentação, UI Designer, etc. :) ), só entrar no nosso canal de discord.</li>
+</ul>
+
+<p>Entre em nosso canal de discord em https://authpass.app/go/discord - Em caso de quaisquer Problemas, Feedback, etc. ou apenas para curtir.</p>

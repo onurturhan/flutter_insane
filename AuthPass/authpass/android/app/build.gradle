@@ -1,0 +1,168 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def secretProperties = new Properties()
+def secretPropertiesFile = rootProject.file('../_tools/secrets/gradle_home/gradle.properties')
+if (secretPropertiesFile.exists()) {
+    System.out.println("loading secrets from ${secretPropertiesFile.absolutePath}")
+    secretPropertiesFile.withReader('UTF-8') { reader ->
+        secretProperties.load(reader)
+    }
+} else {
+    System.err.println("secrets not found at ${secretPropertiesFile.absolutePath}")
+}
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 30
+//    buildToolsVersion "29.0.2"
+    ndkVersion System.getProperty("design.codeux.ndkVersion", "21.0.6113669")
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+    }
+
+    defaultConfig {
+        applicationId "design.codeux.authpass"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'authpass'
+            keyPassword secretProperties['design.codeux.authpass.storePassword']
+            storeFile file(secretProperties['design.codeux.authpass.storeFile'] ?: "invalid")
+            storePassword secretProperties['design.codeux.authpass.storePassword']
+        }
+        amazon {
+            keyAlias 'amazon-key'
+            keyPassword secretProperties['design.codeux.authpass.amazon.storePassword']
+            storeFile file(secretProperties['design.codeux.authpass.amazon.storeFile'] ?: "invalid")
+            storePassword secretProperties['design.codeux.authpass.amazon.storePassword']
+        }
+    }
+
+    flavorDimensions "hpdist"
+
+    productFlavors {
+        samsungapps {
+            // Assigns this product flavor to the "version" flavor dimension.
+            // If you are using only one dimension, this property is optional,
+            // and the plugin automatically assigns all the module's flavors to
+            // that dimension.
+            dimension "hpdist"
+            applicationIdSuffix ".samsungapps"
+//            minSdkVersion 23
+//            targetSdkVersion 29
+            signingConfig signingConfigs.release
+        }
+        huawei {
+            dimension "hpdist"
+            applicationIdSuffix ".huawei"
+            signingConfig signingConfigs.release
+        }
+        amazon {
+            dimension "hpdist"
+            applicationIdSuffix ".amazon"
+            signingConfig signingConfigs.amazon
+        }
+        playstore {
+            dimension "hpdist"
+            signingConfig signingConfigs.release
+        }
+        playstoredev {
+            dimension "hpdist"
+            applicationIdSuffix ".dev"
+            signingConfig signingConfigs.release
+        }
+        fdroid {
+            dimension "hpdist"
+            project.flutter.target = 'lib/env/fdroid.dart'
+            applicationIdSuffix = '.fdroid'
+            signingConfig null
+        }
+        // Binary distribution for direct release through github.
+        sideload {
+            dimension "hpdist"
+            applicationIdSuffix = '.sideload'
+            signingConfig signingConfigs.release
+            
+        }
+
+    }
+
+
+    buildTypes {
+        release {
+//            minification is enabled by flutter build command, so nothing we need to do here.
+//            NOTE: only `flutter build apk/appbundle` will enable it,
+//            BUT NOT `flutter run --release`!!
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile(
+//                    'proguard-android-optimize.txt'),
+//                    // List additional ProGuard rules for the given build type here. By default,
+//                    // Android Studio creates and includes an empty rules file for you (located
+//                    // at the root directory of each module).
+//                    'proguard-rules.pro'
+        }
+        debug {
+            project.flutter.target = 'lib/env/development.dart'
+            applicationIdSuffix = '.debug'
+        }
+    }
+}
+
+android.applicationVariants.all { variant ->
+    if (variant.flavorName == "fdroid" && variant.buildType.name == "release") {
+        variant.outputs.all { output ->
+            output.outputFileName = "app-fdroid-release.apk"
+        }
+    }
+}
+
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation "androidx.fragment:fragment:1.2.4"
+
+    // logging
+    implementation "org.slf4j:slf4j-api:1.7.28"
+    implementation "io.github.microutils:kotlin-logging:1.7.6"
+    implementation "uk.uuid.slf4j:slf4j-android:1.7.28-0"
+
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}
