@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new release build to the App Store"
+  lane :release do
+    build_app(
+      scheme: "Runner",
+      workspace: "Runner.xcworkspace",
+      export_method: "app-store",
+      export_options: {
+        provisioningProfiles: {
+          "io.gitjournal.gitjournal" => "CI - io.gitjournal.gitjournal",
+          "io.gitjournal.gitjournal.ShareExtension" => "CI - io.gitjournal.gitjournal.ShareExtension"
+        }
+      }
+    )
+    #upload_to_app_store(skip_metadata: true, skip_screenshots: true)
+    changelog_from_git_commits
+    upload_to_testflight(apple_id:"1466519634", skip_waiting_for_build_processing:true)
+  end
+end

@@ -1,0 +1,579 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+# 
+# SPDX-License-Identifier: CC-BY-4.0
+settings:
+  ok: Ok
+  cancel: Abbrechen
+  title: Einstellungen
+  author:
+    label: Name
+    validator: Bitte gebe einen Namen ein
+  email:
+    label: Email
+    validator:
+      empty: Bitte gebe eine Email Adresse ein
+      invalid: Bitte gebe eine gültige Email Adresse ein
+  display:
+    title: Ansicht Einstellungen
+    homeScreen: Startbildschirm
+    theme: Theme
+    images:
+      title: Bildeinstellungen
+      subtitle: Einstellen wie die Bilder dargestellt werden
+      imageTextType:
+        alt: Alt Text
+        altAndTooltip: Alt Text and Tooltip
+        tooltip: Tooltip
+        none: None
+      captions:
+        title: Bildbeschreibungen
+        subtitle: Einstellen der Bildbeschreibungen
+        useAsCaption: Als Beschreibungen nutzen
+        overlayCaption: Beschreibungen über entsprechend große Bilder anzeigen
+        transparentCaption: Überlagerte Beschreibungen haben einen halbtransparenten Hintergrund
+        blurBehindCaption: Das Bild hinter der Beschreibung verwischen
+        tooltipFirst:
+          title: Show tooltip before alt text
+          tooltip: Die aktuelle Reihenfolge ist “<tooltip> - <altText>”
+          altText: Die aktuelle Reihenfolge ist  “<altText> - <tooltip>”
+        captionOverrides: Caption Overrides
+        tagDescription: Nutze diese Schlagworte “![altText](... "tooltip")” um das Verhalten zu beeinflussen.
+        doNotCaptionTags:
+          hint: DoNotCaption-Tags
+          # does ist actually mean: "Never use _a_ caption with tags" ?
+          label: Never use as caption with tags
+          validator:
+            empty: Schlagworte müssen gesetzt sein.
+            same: Tag cannot be identical to a “DoCaption-Tag”.
+        doCaptionTags:
+          hint: DoCaption-Tags
+          label: Always use as caption with tags
+          validator:
+            empty: Never use as caption with tags
+            same: Tag cannot be identical to a “DoNotCaption-Tag”.
+      detailsView:
+        header: Detailansicht
+        maxZoom: Maximale Vergrößerung
+        rotateGestures:
+          title: Bild per Gesten drehen
+          subtitle: Bild mit einer Kreibewegung zweier Finger drehen
+      theming:
+        title: Image Theming
+        subtitle: Configure how images are themed
+        adjustColors:
+          all: Alles
+          blackAndWhite: nur schwarz-weiß
+          grays: nur Grautöne
+        doNotThemeTags:
+          hint: DoNotTheme-Tags
+          label: Never theme images with tags
+          validator:
+            empty: Tags cannot be empty.
+            same: Tag cannot be identical to a “DoTheme-Tag”.
+        doThemeTags:
+          hint: DoTheme-Tag
+          label: Always theme images with tags
+          validator:
+            empty: Tags cannot be empty.
+            same: Tag cannot be identical to a “DoNotTheme-Tag”.
+        matchCanvasColor:
+          title: mit der Hintergrundfareb abgleichen
+          subtitle: Die Schwarz-Weiß-Teile eine Vektor-Grafik durch die Hintergrundfarbe ersetzen
+        tagDescription: Nutze diese Schlagworte “![altText](... "tooltip")” um das Verhalten der Bildes zu beeinflussen.
+        themeOverrides: Theme Overrides
+        themeOverrideTagLocation: Theme Override Tag Location
+        themeRasterGraphics: Theme Raster Graphics (.png/.jpg)
+        themeSvgWithBackground: Theme SVGs With Background
+        themeVectorGraphics:
+          title: Theme Vector Graphics
+          filter: Farbfilter verwenden
+          'off': falsch
+          'on': richtig
+        vectorGraphics: Vektor-Grafik (.svg)
+        vectorGraphicsAdjustColors: Anpassbare Farben
+    lang: Language
+  gitAuthor: Git Author Einstellungen
+  versionInfo: Versions Info
+  analytics: Auswertungen
+  crashReports: Sammle anonyme Crash Reports
+  usageStats: Sammle anonyme Nutzungsdaten
+  debug:
+    title: Debug App
+    subtitle: Blicke unter die Motorhaube
+    levels:
+      title: Level wählen
+      error: Fehler
+      warning: Warnung
+      info: Info
+      debug: Debug
+      verbose: Ausführlich
+    copy: Debug Logs Copied
+  images:
+    title: Bilder Einstellungen
+    subtitle: Stelle ein wie Bilder gespeichert werden
+    imageLocation: Bilder Speicherort
+    currentFolder: Selbes Verzeichnis wie Notiz
+    customFolder: Benutzerdefiniertes Verzeichnis
+  gitRemote:
+    changeHost:
+      title: Git Host neu konfigurieren?
+      subtitle: Notizen die nicht gesynct sind gehen verloren
+      ok: Ok
+      cancel: Abbrechen
+    title: Git Remote Einstellungen
+    subtitle: Konfiguriere wohin Deine Notizen gesynct werden
+    host: Git Host
+    branch: Branch
+    resetHard:
+      title: Reset Git Host
+      subtitle: This will HARD reset the current branch to its remote
+  noteMetaData:
+    title: Notiz Metadaten Einstellungen
+    subtitle: Konfiguriere wie Notiz Metadaten gespeichert werden
+    text: Jede Notiz hat Metadaten die in einem YAML Header wie folgt gespeichert werden
+    enableHeader: YAML Header einschalten
+    modified: Änderungsdatum Feld
+    created: Erstellungsdatum Feld
+    tags: Tags Feld
+    example:
+      title: Beispiel Titel
+    titleMetaData:
+      title: Titel
+      fromH1: Text Header 1
+      fromYaml: Von YAML 'Titel'
+      filename: Dateiname
+    exampleTitle: Pinguine
+    exampleBody: Ich denke sie sind teuflisch. Sogar teuflischer als Pinguine.
+    exampleTag1: Vögel
+    exampleTag2: Teufel
+    customMetaData:
+      title: Custom Metadaten
+      invalid: Ungültiges YAML
+    output: Output
+    input: Input
+  privacy: Datenschutz Regelung
+  terms: Allgemeine Geschäftsbedingungen
+  experimental:
+    title: Experimentelle Features
+    subtitle: Probiere Features in Entwicklung
+    markdownToolbar: Zeige Markdown Toolbar in Editor
+    graphView: Graph View
+    accounts: Platform Independent Accounts
+    includeSubfolders: Unterordner berücksichtigen
+    experimentalGitOps: Dart-only Git implementation
+    merge: Dart-only merge implementation
+    autoCompleteTags: Tags Auto Completion
+    history: History View
+  editors:
+    title: Editor Einstellungen
+    subtitle: Konfiguriere wie verschiedene Editoren arbeiten
+    defaultEditor: Default Editor
+    defaultState: Default Zustand
+    markdownEditor: Markdown Editor
+    journalEditor: Journal Editor
+    defaultFolder: Default Verzeichnis
+    checklistEditor: Checklist Editor
+    rawEditor: Raw Editor
+    choose: Wähle Editor
+    orgEditor: Org Editor
+    defaultNoteFormat: Default Note Format
+    journalDefaultFolderSelect: Creating a Note in '{}'
+  sortingField:
+    modified: Zuletzt geändert
+    created: Erstellt
+    filename: Dateiname
+    title: Titel
+  sortingOrder:
+    asc: Aufsteigend
+    desc: Absteigend
+  sortingMode:
+    field: Feld
+    order: Reihenfolge
+  remoteSync:
+    auto: Automatisch
+    manual: Manuel
+  tags:
+    title: Tags Einstellungen
+    subtitle: Konfiguriere wie Inline Tags geparsed werden
+    enable: Inline Tags parsen
+    prefixes: Inline Tags Prefixe
+  misc:
+    title: Verschiedene Einstellungen
+    swipe: Wische um Notiz zu löschen
+    listView: Listenansicht
+    confirmDelete: Löschungen per Popop-Dialog bestätigen
+    hardWrap: Enable hardWrap
+    emoji: Emojify text
+  NoteFileNameFormat:
+    iso8601WithTimeZone: ISO8601 mit Zeitzone
+    iso8601: ISO8601
+    iso8601WithoutColon: ISO8601 ohne Doppelpunkte
+    title: Titel
+    uuid: Uuid V4
+    zettelkasten: yyymmddhhmmss
+    simple: yyyy-mm-dd-hh-mm-ss
+    dateOnly: yyyy-mm-dd
+  HomeScreen:
+    allNotes: Alle Notizen
+    allFolders: Alle Verzeichnisse
+  EditorDefaultView:
+    edit: Bearbeiten
+    view: Ansicht
+    lastUsed: zuletzt benutzt
+  theme:
+    light: hell
+    dark: dunkel
+    default: System-Vorgabe
+  versionCopied: Versionsnummer kopiert
+  ssh:
+    syncFreq: Häufigkeit der Synchronization
+  note:
+    title: Notiz-Einstellungen
+    defaultFolder: Standard-Verzeichnis für neue Notizen
+    newNoteFileName: Dateiname für neue Notizen
+  storage:
+    title: Ablage
+    fileName: Dateiname
+    external: Store Repo Externally
+    icloud: Store in iCloud
+    repoLocation: Repo Location
+    notWritable: "{} is not writable"
+    failedExternal: Unable to get External Storage Directory
+  drawer:
+    title: Sidebar Settings
+  bottomMenuBar:
+    title: Bottom Menu Bar
+    subtitle: Configure its appearance and behavior
+    enable: Enable Bottom Menu Bar
+  deleteRepo: Delete Repository
+  fileFormat:
+    markdown: Markdown
+    txt: Txt
+    orgMode: Org Mode
+  fileTypes:
+    title: Note File Types
+    subtitle: Configure what files are considered Notes
+    numFiles:
+      one: "{} File"
+      other: ""
+    noExt: No Extension
+  list:
+    userInterface:
+      title: User Interface
+      subtitle: Theme, Language, Home, Bottom Bar, Rendering
+    git:
+      title: Git
+      subtitle: Git Author, Remote, Sync Frequency
+    editor:
+      title: Editor
+      subtitle: Default Editor, Default View
+    storage:
+      title: Storage & File Formats
+      subtitle: Storage, Serialization, Metadata, File Formats
+    analytics:
+      title: Analytics
+      subtitle: It's important that you feel comfortable
+    debug:
+      title: Debug
+      subtitle: Peek inside the inner workings of GitJournal
+    experiments:
+      title: Experiments
+      subtitle: Play around with experimental features
+  project:
+    header: Project
+    docs: Documentation & Support
+    contribute: Contribute
+    about: About
+  license:
+    title: Licenses
+    subtitle: GitJoural uses other great software
+editors:
+  checklist:
+    add: Item hinzufügen
+  common:
+    defaultBodyHint: Schreibe hier
+    defaultTitleHint: Titel
+    discard: Änderungen verwerfen
+    share: Teile Notiz
+    takePhoto: Photo aufnehmen
+    addImage: Füge Bild aus Gallery hinzu
+    editFileName: Editiere Dateiname
+    tags: Editiere Tags
+    zen:
+      enable: Zen Mode einschalten
+      disable: Zen Mode auschalten
+    saveNoteFailed:
+      title: Notiz sichern gescheitert
+      message: Leider scheint es, daß wir die Notiz nicht sichern konnten. Sie wurde in die Zwischenablage kopiert um Datenverluste zu verhindern.
+    defaultFileNameHint: File Name
+    find: Find in note
+pro: Pro
+actions:
+  newNote: Neue Notiz
+  newJournal: Neuer Journal Eintrag
+  newChecklist: Neue Checkliste
+screens:
+  folders:
+    title: Verzeichnisse
+    selected: Ausgewähltes Verzeichnis
+    dialog:
+      title: Erstelle neues Verzeichnis
+      create: Erstelle
+      discard: Verwerfe
+    errorDialog:
+      title: Fehler
+      deleteContent: Verzeichnis mit Notizen kann nicht gelöscht werden
+      renameContent: Root Verzeichnis kann nicht umbenannt werden
+      ok: Ok
+    actions:
+      rename: Verzeichnis umbenennen
+      subFolder: Erstelle Unter-Verzeichnis
+      delete: Lösche Verzeichnis
+      decoration: Verzeichnisname
+      empty: Bitte geben Sie einen Namen ein
+  tags:
+    title: Tags
+    empty: Keine Tags gefunden
+  filesystem:
+    ignoredFile:
+      title: Datei ignoriert
+      ok: Ok
+      rename: Umbenennen
+    rename:
+      decoration: Dateiname
+      title: Umbennen
+  folder_view:
+    empty: Einige Notizen hinzufügen?
+  home:
+    allNotes: Alle Notizen
+  cacheLoading:
+    text: Reading Git History ...
+widgets:
+  rename:
+    'yes': Umbennen
+    'no': Abbrechen
+    validator:
+      empty: Bitte geben Sie einen Namen ein
+      exists: Bereits vorhanden
+      contains: Kann kein / enthalten
+    noExt: "Warning: Extension missing. Will treat file as plain text"
+    changeExt: "Warning: Changing file type from '{}' to '{}'"
+  backlinks:
+    title:
+      one: "Notiz verlinkt zu dieser Notiz"
+      other: "Notizen verlinken zu dieser Notiz"
+  SortingOrderSelector:
+    title: Sortierkriterien
+  PurchaseButton:
+    text: Erwerben für {price}
+    fail: Konnte nicht geladen werden
+    failSend: Konnte die Kaufanfrage nicht senden
+    failPurchase: "Konnte {} nicht kaufen\n"
+  FolderView:
+    syncError: Sync Fehler {}
+    headerOptions:
+      heading: Header Optionen
+      auto: Automatisch erstellter Titel
+      titleFileName: Titel oder Dateiname
+      fileName: Dateiname
+      summary: Zeige Zusammenfassung
+      customize: Angepasste Ansicht
+    views:
+      standard: Standard Ansicht
+      journal: Journal Ansicht
+      grid: Grid Ansicht
+      card: Karten Ansicht
+      select: Wähle Ansicht
+      calendar: Calendar View
+    sortingOptions: Sortier Optionen
+    viewOptions: Ansicht Optionen
+    noteDeleted: Notiz gelöscht
+    undo: Rückgängig machen
+    searchFailed: Keine Suchtreffer gefunden
+    actions:
+      moveToFolder: Move To Folder
+    pinned: Pinned
+    others: Others
+  imageRenderer:
+    caption: "{first} - {second}"
+    httpError: "Code: {status} for {url}"
+  NoteDeleteDialog:
+    title:
+      one: Möchtest Du diese Notiz löschen?
+      other: ""
+    'yes': wahr
+    'no': falsch
+  NoteEditor:
+    renameFile: Datei umbenennen
+    fileName: Dateiname
+    addType: Adding '{}' to supported file types
+  SyncButton:
+    error: Sync Error {}
+  PurchaseWidget:
+    failed: Kauf fehlgeschlagen
+  NoteViewer:
+    linkNotFound: Link '{}' not found
+    linkInvalid: Link '{}' is invalid.
+  FolderSelectionDialog:
+    title: Select a Folder
+rootFolder: Root Verzeichnis
+ignoredFiles:
+  dot: Beginnt mit einem .
+  ext: Endet nicht mit .md oder .txt
+drawer:
+  setup: Git Host einrichten
+  pro: Pro Version freischalten
+  all: Alle Notizen
+  folders: Verzeichnisse
+  fs: Dateisystem
+  tags: Tags
+  share: Teile App
+  rate: Bewerte uns
+  feedback: Feedback
+  bug: Bug Report
+  graph: Graph View
+  remote: No Git Host
+  addRepo: Add Repository
+  login: Login
+  history: History
+setup:
+  autoConfigure:
+    title: Wie möchten Sie das machen?
+    automatic: Automatisches Einrichten
+    manual: Lass es mich manuell machen
+  autoconfigure:
+    step1: 1. Trage existierende Repos ein oder erstelle ein neues
+    step2: 2. Erstelle einen SSH Schlüssel auf diesem Gerät
+    step3: 3. Füge den Schlüssel als Anwendungsschlüssel mit Schreibzugriff dem Repository hinzu
+    warning: Dies erfordert GitJournal Zugriff auf alle privaten und öffentlichen Repos zu gewähren. Wenn Du damit nicht einverstanden bist, gehe bitte zurück und wähle die manuelle Einrichtung.
+    authorize: Authorisiere GitJournal
+    waitPerm: Warte auf Rechte ...
+    readUser: Lese Nutzer Info
+  repoSelector:
+    title: Wähle oder erstelle ein Repository
+    hint: Tippen Sie zum Suchen oder Erstellen eines Repos
+    create: Erstelle Repo {}
+    loading: Laden
+  cloneUrl:
+    enter: Geben Sie die Git Clone URL ein
+    validator:
+      empty: Bitte geben Sie etwas Text ein
+      invalid: Ungültige Eingabe
+      onlySsh: Nur ssh URLs sind momentan erlaubt
+    manual:
+      title: Bitte erstellen Sie ein neues Git Repository
+      step1: 1. Gehen Sie zur Webseite, erstellen Sie ein Repo und kopieren dessen Git Clone URL
+      step2: 2. Geben Sie die Git Clone URL ein
+      button: Öffne Erstelle Neues Repo Webseite
+  next: Nächste
+  fail: Gescheitert
+  keyEditors:
+    public: Ungültiger Öffentlicher Schlüssel - Beginnt nicht mit ssh-rsa
+    private: Ungültiger Privater Schlüssel
+    load: Aus einer Datei laden
+  sshKey:
+    generate: Erstelle SSH Schlüssel
+    title: Um auf das Repository zuzugreifen muß dieser Öffentliche Schlüssel als Anwendungsschlüssel kopiert werden
+    step1: 1. Kopiere den Schlüssel
+    step2a: 2. Öffnen Sie die Webseite und geben den "Deploy" Schlüssel ein. Stellen Sie sicher das Schreibzugriff gewährt ist.
+    step2b: 2. Geben Sie diesem SSH Schlüssel Zugang zu dem Git Repo. (Das müssen Sie selber herausfinden)
+    step3: 3. Versuche zu Clonen ...
+    copy: Kopiere Schlüssel
+    copied: Öffentlicher Schlüssel in Zwischenablage kopiert
+    regenerate: Schlüssel neu erstellen
+    openDeploy: Öffnen Anwenden Schlüssel Webseite
+    clone: Clone Repo
+    addDeploy: Als Anwendungsschlüssel hinzufügen
+    save: Speichern
+  sshKeyChoice:
+    title: Wir brauchen SSH Schlüssel zum authentifizieren
+    generate: Erstelle neue Schlüssel
+    custom: Benutzerdefinierte SSH Schlüssel bereitstellen
+  sshKeyUserProvided:
+    public: Öffentlicher Schlüssel -
+    private: Privater Schlüssel
+    password: Passwort
+  cloning: Clonen ...
+  host:
+    title: Wähle einen Git Hosting Anbieter
+    custom: Benutzerdefiniert
+feature:
+  darkMode: Dark Mode
+  rawEditor: Raw Editor
+  folderSupport: Verzeichnis Support
+  fileNameCustomize: Anpassen des Dateinamen der Notiz
+  noteMetaDataCustomize:
+    title: Anpassen der Metadaten der Notiz
+    subtitle: Zulassen daß GitJournal mit Generatoren statischer Webseiten benutzt wird
+  autoMergeConflicts: Automatisierte Merge-Konflikt Lösung
+  noteSorting: Einstellbare Notizensortierung
+  gitPushFreq: Einstellbare Git Sync Häufigkeit
+  checklistEditor: Checklist Editor
+  journalEditor: Journal Editor
+  diffViews: Verschiedene Verzeichnisansichten - Journal, Grid, Standard
+  imageSupport: Bilder Support
+  tags: Notiz Tags
+  appShortcuts: App Kürzel
+  createRepo: Erstelle angepasste Repos aus der App heraus
+  backlinks: Unterstützung für Notiz Backlinks
+  txtFiles: Textdatei Unterstützung
+  wikiLinks: Wiki-Style Link Unterstützung
+  metaDataTitle: Titel Metadaten anpassen
+  journalEditorDefaultFolder: Anpassen des Default-Verzeichnisses des Journal Editors
+  yamlModifiedKey: Anpassen des YAML veränderten Schlüssels
+  yamlCreatedKey: Anpassen des YAML erstellten Schlüssels
+  yamlTagsKey: Anpassen des YAML Tags Schlüssels
+  disableYamlHeader: Ausschalten der YAML Meatadaten Header
+  customizeHomeScreen: Startbildschirm anpassen
+  zenMode: Zen Schreib Modus
+  emojiSupport:
+    title: Emoji Unterstützung
+    subtitle: "Ändere :heart zu ❤️"
+  allNotesView: Füge eine Ansicht hinzu um "Alle Notizen" zu zeigen
+  basicSearch: Basis Suche
+  customSSHKeys: Verwende Deine eigenen SSH Schlüssel
+  customMetaData: Füge angepasste Metadaten zu neuen Notizen hinzu
+  graphVisualization: Graph Virtualisierung
+  mutliRepos: Mehrere Git Repos
+  customThemes: Angepasste Themes
+  gitLog: Betrachte und Suche in der Git Historie
+  latex: Latex Unterstützung
+  mermaid: Mermaid Diagramm Unterstützung
+  encryptedHosting: Verschlüsseltes Git Hosting
+  desktop: Desktop App
+  markdownToolbar: Markdown Toolbar
+  localization:
+    title: Lokalisierung
+    subtitle: Erlaube GitJournal übersetzt zu werden
+  inlineTags: Inline Tags
+  singleJournalEntry: Single Journal Entry File per day
+  configureBottomMenuBar: Configure the Bottom Menu Bar
+  customFileNamePerEditor: Angepasste Dateinamen je Editor
+  branchSelection: Git Branch Selection
+feature_timeline:
+  title: Feature Zeitleiste
+  progress: In Bearbeitung
+  plan: Geplant
+  issues: GitJournal's development is tracked on Github. Please consider voting on the issues you consider important.
+purchase_screen:
+  title: Pro Version
+  desc: 'GitJournal ist vollständig Open Source und das Ergebnis erheblicher Entwicklungsarbeit. Es hat kein Wagniskapital oder Unternehmen im Rücken, und wird dies auch nie haben. Deine Unterstützung hält die Weiterentwicklung aufrecht. GitJournal funktioniert auf einer "Zahle wieviel Du willst"-Basis (mit einem unteren Limit).'
+  restore: Erwerb wiederherstellen
+  oneTime:
+    title: Einmal Erwerb
+    desc: Schaltet alle bestehenden Pro Features in GitJournal frei und alle neuen Features der folgenden 12 Monate
+  monthly:
+    title: Monatliche Subscription
+    desc: Schaltet alle Pro Features frei. Nach 12 Monaten oder nach Zahlung von {minYearlyPurchase} bekommst Du alle Vorteile des Einmal Erwerbs
+  thanks:
+    title: Danke
+    subtitle: Toll, dass Du GitJournal unterstütztst
+OnBoarding:
+  Skip: Überspringen
+  Next: Nächster
+  getStarted: Get Started
+  subtitle: 'Eine Notizen-App basierend auf GitHub'
+  page2: 'Deine Notizen werden im Markdown + YAML Header Format bespeichert'
+  page3: 'Sync your Local Git Repo with any provider'
+beta: BETA
+none: None

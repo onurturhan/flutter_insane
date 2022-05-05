@@ -1,0 +1,60 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  strong-mode:
+    implicit-dynamic: true
+  errors:
+    missing_required_param: error
+    missing_return: error
+    todo: ignore
+    fixme: ignore
+    hack: ignore
+    directives_ordering: ignore
+  exclude:
+    - "bin/cache/**"
+    - "lib/generated_plugin_registrant.dart"
+    - lib/account/init.dart
+    - lib/experiments/**
+  enable-experiment:
+    - nonfunction-type-aliases
+  # plugins:
+  # - dart_code_metrics
+
+linter:
+  rules:
+    constant_identifier_names: false
+    avoid_renaming_method_parameters: false
+    use_key_in_widget_constructors: false
+    prefer_function_declarations_over_variables: false
+    no_logic_in_create_state: false
+    non_constant_identifier_names: false
+    use_string_buffers: true
+    avoid_void_async: true
+    # unawaited_futures: true
+
+dart_code_metrics:
+  metrics-exclude:
+    - test/**
+    - lib/settings/settings_screen.dart
+    - lib/setup/screens.dart
+    - lib/widgets/images/markdown_image.dart
+  metrics:
+    cyclomatic-complexity: 200
+    maximum-nesting-level: 50
+    number-of-parameters: 40
+    source-lines-of-code: 5000
+    number-of-methods: 100
+  rules:
+    - avoid-ignoring-return-values
+    - double-literal-format
+    # - avoid-unused-parameters
+    # - double-literal-format
+    # - no-boolean-literal-compare
+    # - no-equal-arguments
+    # - no-magic-number
+    # - no-object-declaration
+    # - prefer-conditional-expressions

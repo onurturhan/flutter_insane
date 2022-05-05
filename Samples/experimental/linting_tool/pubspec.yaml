@@ -1,0 +1,47 @@
+name: linting_tool
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adaptive_breakpoints: ^0.1.1
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  file_selector: ^0.8.2
+  file_selector_linux: ^0.0.2+1
+  file_selector_macos: ^0.8.2
+  file_selector_web: ^0.8.1+1
+  file_selector_windows: ^0.8.2
+  flutter_markdown: ^0.6.2
+  google_fonts: ^2.1.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  http: ^0.13.3
+  json2yaml: ^3.0.0
+  json_annotation: ^4.0.1
+  mockito: ^5.0.13
+  provider: ^6.0.2
+  yaml: ^3.1.0
+  context_menus: ^1.0.1
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.6
+  flutter_lints: ^1.0.3
+  hive_generator: ^1.1.0
+  json_serializable: ^6.2.0
+
+flutter:
+  uses-material-design: true

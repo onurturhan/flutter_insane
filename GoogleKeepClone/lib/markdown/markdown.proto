@@ -1,0 +1,27 @@
+/*
+ * SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+syntax = "proto3";
+
+package gitjournal;
+
+message NodeList {
+  repeated Node node = 1;
+}
+
+message Node {
+  oneof value {
+    Element element = 1;
+    string text = 2;
+  }
+}
+
+message Element {
+  string tag = 1;
+  map<string, string> attributes = 2;
+  repeated Node children = 3;
+  string generatedId = 4;
+}

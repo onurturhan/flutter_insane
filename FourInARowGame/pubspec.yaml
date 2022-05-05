@@ -1,0 +1,61 @@
+name: four_in_a_row
+description: An online version of the popular game Four in a Row!
+
+version: 1.4.4+23
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.1+1
+  vibration: ^1.7.4-nullsafety.0
+  web_socket_channel: ^2.0.0
+  flutter_keyboard_visibility: ^5.0.0
+  shared_preferences: ^2.0.4
+  url_launcher: ^6.1.0
+  http: ^0.13.0
+  equatable: ^2.0.0
+  flutter_local_notifications: ^9.4.0
+  provider: ^6.0.2
+  tuple: ^2.0.0
+  android_intent: ^2.0.0
+  connectivity: ^3.0.2
+  stream_channel: ^2.1.0
+  lottie: ^1.3.0
+  share: ^2.0.1
+  logger: ^1.1.0
+  linked_scroll_controller: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  assets:
+    - assets/img/
+    - assets/img/ranks/
+    - assets/lottie/reactions/
+    - assets/lottie/reactions/images/
+    - assets/lottie/main_menu/
+    - assets/lottie/main_menu/images/
+
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Black.ttf
+          weight: 900

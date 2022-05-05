@@ -1,0 +1,69 @@
+# SPDX-FileCopyrightText: 2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+/android/fastlane/README.md
+/android/fastlane/report.xml
+
+# GitJournal specific
+test/.test_coverage.dart
+lib/.env.dart
+gj_common
+
+# Android NDK Debug symbols
+debugSymbols
+.externalNativeBuild
+
+# Legacy Eclipse project files
+.settings/
+.classpath
+.project
+.cproject
+
+# Linux Building
+/AppDir
+appimage-builder-cache/

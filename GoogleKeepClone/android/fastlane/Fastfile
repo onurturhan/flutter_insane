@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+default_platform(:android)
+
+platform :android do
+  desc "Publish a new Android APK"
+  lane :alphaBuild do
+    # Return the number of commits in current git branch
+    # build_number = number_of_commits()
+    # Dir.chdir "../../" do
+    #  sh("flutter", "packages", "get")
+    #  sh("flutter", "clean")
+    #  sh("flutter", "build", "apk", "--build-number=#{build_number}")
+    # end
+
+    upload_to_play_store(track: "alpha",
+      aab: "../build/app/outputs/bundle/prodRelease/app-prod-release.aab",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+    )
+  end
+end

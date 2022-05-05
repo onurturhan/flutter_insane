@@ -1,0 +1,30 @@
+name: form_app
+description: A sample demonstrating different types of forms and best practices
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  intl: ^0.17.0
+  http: ^0.13.0
+  json_annotation: any
+  english_words: ^4.0.0
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.2.0
+  build_runner: ^2.1.8
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true

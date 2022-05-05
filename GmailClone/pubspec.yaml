@@ -1,0 +1,24 @@
+name: gmail_clone
+description: A new Flutter application to showcase how to build Gmail with Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  responsive_scaffold: ^0.0.2
+  floating_search_bar: ^0.1.3
+  intl: ^0.15.7
+  flutter_markdown: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/email_preview.md

@@ -1,0 +1,23 @@
+name: provider_architecture
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  provider: ^4.1.3
+  get_it: ^4.0.2
+  http: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

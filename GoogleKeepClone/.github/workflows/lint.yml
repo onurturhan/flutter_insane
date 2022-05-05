@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    container: vhanda/flutter-android:latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Analyze
+        run: flutter analyze
+      - name: dart code metrics
+        run: flutter pub run dart_code_metrics:metrics lib
+
+  REUSE-Licensing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: REUSE Compliance Check
+        uses: fsfe/reuse-action@v1

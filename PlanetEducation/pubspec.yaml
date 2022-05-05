@@ -1,0 +1,39 @@
+name: flutter_planets_tutorial
+description: The Flutter Planets app tutorial with commits per lesson
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+  assets:
+    - assets/img/mars.png
+    - assets/img/neptune.png
+    - assets/img/moon.png
+    - assets/img/earth.png
+    - assets/img/mercury.png
+    - assets/img/ic_distance.png
+    - assets/img/ic_gravity.png

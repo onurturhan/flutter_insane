@@ -1,0 +1,23 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: GitJournal
+Upstream-Contact: Vishesh Handa <me@vhanda.in>
+Source: https://gitjournal.io
+
+Files: macos/Runner/* macos/Runner.xcodeproj/* macos/Runner.xcworkspace/* macos/Flutter/*
+       ios/keys/* ios/Runner.xcodeproj/* ios/Runner/* ios/Runner.xcworkspace/* ios/Runner.xcworkspace/xcshareddata/*
+       ios/Flutter/* linux/flutter/* secrets/* android/secrets/*
+       macos/keys/* android/gradle/* android/app/src/main/res/* android/fastlane/metadata/*
+       android/app/src/dev/res/values/*
+       scripts/secrets/* test/apis/data/*
+       *.lock *.iml *.jks *.metadata *.plist *.entitlements
+       *.yaml *.desktop
+Copyright: Vishesh Handa <me@vhanda.in>
+License: CC0-1.0
+
+Files: *.png *.svg *.md
+Copyright: Vishesh Handa <me@vhanda.in>
+License: CC-BY-4.0
+
+Files: *.storyboard
+Copyright: Vishesh Handa <me@vhanda.in>
+License: Apache-2.0

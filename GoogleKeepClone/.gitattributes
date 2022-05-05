@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+android/secrets/* filter=git-crypt diff=git-crypt
+ios/keys/* filter=git-crypt diff=git-crypt
+macos/keys/* filter=git-crypt diff=git-crypt
+secrets/* filter=git-crypt diff=git-crypt
+scripts/secrets/* filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff

@@ -1,0 +1,89 @@
+<!--
+SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.gitjournal.gitjournal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        tools:replace="android:label"
+        android:label="@string/app_name"
+        android:icon="@mipmap/launcher_icon"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <!-- Sharing Related -->
+            <intent-filter>
+               <action android:name="android.intent.action.SEND" />
+               <category android:name="android.intent.category.DEFAULT" />
+               <data android:mimeType="text/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <!-- Used for logging into the App -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="gitjournal-identity" android:host="register-callback" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UriReceiverActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <!-- Used for "Automatic Git Setup" -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="gitjournal" android:host="login.oauth2" />
+                <!-- Triggering URI would be gitjournal://login.oauth2 -->
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="flutterEmbedding" android:value="2" />
+        <meta-data android:name="io.sentry.dsn" android:value="https://35f34dbec289435fbe16483faacf49a5@sentry.io/5168082" />
+    </application>
+
+    <queries>
+        <intent>
+          <action android:name="android.intent.action.SENDTO" />
+          <data android:scheme="mailto" />
+        </intent>
+    </queries>
+</manifest>

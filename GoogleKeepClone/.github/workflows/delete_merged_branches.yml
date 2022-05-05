@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2019-2021 Vishesh Handa <me@vhanda.in>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+name: delete branch on close pr
+on: 
+  pull_request:
+    types: [closed]
+  
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: delete branch
+        uses: SvanBoxel/delete-merged-branch@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
