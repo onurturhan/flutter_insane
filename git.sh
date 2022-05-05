@@ -2,7 +2,7 @@ GUSER=MarcusNg           &&  GREPO=flutter_spotify_ui             APPNAME=Spotif
 GUSER=RivaanRanawat      &&  GREPO=instagram-flutter-clone        APPNAME=InstagramClone  && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
 GUSER=abuanwar072        &&  GREPO=E-commerce-App-UI-Flutter      APPNAME=E-CommerceApp   && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
 GUSER=Ronak99            &&  GREPO=Skype-Clone                    APPNAME=SkypeClone      && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
-GUSER=roughike           &&  GREPO=inKino                         APPNAME=Inkino          && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
+GUSER=roughike           &&  GREPO=inKino                         APPNAME=InKino          && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
 GUSER=iampawan           &&  GREPO=FlutterStackOverflowApp        APPNAME=StackOverFlow   && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
 GUSER=nisrulz            &&  GREPO=flutter-examples               APPNAME=Examples        && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
 GUSER=stonega            &&  GREPO=tsacdop                        APPNAME=PodcastPlayer   && rm -rif $APPNAME && git clone "https://github.com/$GUSER/$GREPO"".git" $APPNAME && rm -rif $APPNAME/.git
