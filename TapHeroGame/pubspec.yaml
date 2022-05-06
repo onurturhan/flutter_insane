@@ -1,0 +1,35 @@
+name: tap_hero
+description: Tap Hero
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^0.12.1
+  share: ^0.6.1+1
+  simple_animations: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background/
+    - assets/character/
+    - assets/boss/
+    - assets/elements/
+    - assets/audio/
+
+  fonts:
+    - family: Gameplay
+      fonts:
+        - asset: fonts/gameplay.ttf

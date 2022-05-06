@@ -1,0 +1,192 @@
+{
+  "@@last_modified": "2018-08-21T19:37:53.975407",
+  "@@locale": "pl",
+  "tutorialSkip": "Graj",
+  "@tutorialSkip": {
+    "description": "Button which skips the tutorial and takes the player to the game",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialFirstSectionHeader": "Znajomi",
+  "@tutorialFirstSectionHeader": {
+    "description": "Header for the first tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialFirstSectionDescription": "Zbierz grupę znajomych do wspólnej zabawy. Najmłodszy gracz rozpoczyna.",
+  "@tutorialFirstSectionDescription": {
+    "description": "Description for the first tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialSecondSectionHeader": "Kategoria",
+  "@tutorialSecondSectionHeader": {
+    "description": "Header for the second tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialSecondSectionDescription": "Wybierz dowolną kategorię i przyłóż telefon do czoła. Odgadnij hasło kierowany podpowiedziami znajomych.",
+  "@tutorialSecondSectionDescription": {
+    "description": "Description for the second tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialThirdSectionHeader": "Podpowiedzi",
+    "@tutorialThirdSectionHeader": {
+      "description": "Header for the third tutorial section",
+      "type": "text",
+      "placeholders": {}
+    },
+    "tutorialThirdSectionDescription": "Zdecyduj jakich wskazówek używacie podczas rundy - mówienie, pokazywanie, rysowanie, a nawet nucenie.",
+    "@tutorialThirdSectionDescription": {
+      "description": "Description for the third tutorial section",
+      "type": "text",
+      "placeholders": {}
+    },
+  "tutorialFourthSectionHeader": "Zabawa!",
+  "@tutorialFourthSectionHeader": {
+    "description": "Header for the fourth tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tutorialFourthSectionDescription": "Stuknij w ekran po kolejne hasło. Miłej zabawy!",
+  "@tutorialFourthSectionDescription": {
+    "description": "Description for the fourth tutorial section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "preparationPlay": "Graj",
+  "@preparationPlay": {
+    "description": "Button which confirms the selected category and starts the main game",
+    "type": "text",
+    "placeholders": {}
+  },
+  "preparationOrientationDescription": "Umieść telefon na czole",
+    "@preparationOrientationDescription": {
+      "description": "Message which reminds player to put the phone in landscape orientation before game starts",
+      "type": "text",
+      "placeholders": {}
+    },
+  "gameCancelConfirmation": "Czy chcesz zakończyć obecną rozgrywkę?",
+  "@gameCancelConfirmation": {
+    "description": "Description of the dialog which is presented to the player when he tries to quit the game loop",
+    "type": "text",
+    "placeholders": {}
+  },
+  "gameCancelApprove": "OK",
+  "@gameCancelApprove": {
+    "description": "Text for approving the decision to cancel current game.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "gameCancelDeny": "Anuluj",
+  "@gameCancelDeny": {
+    "description": "Text for canceling the decision to cancel current game.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "lastQuestion": "Ostatnie pytanie",
+  "@lastQuestion": {
+    "description": "Text shown before presenting last question during the game",
+    "type": "text",
+    "placeholders": {}
+  },
+  "summaryHeader": "Twój wynik",
+  "@summaryHeader": {
+    "description": "Header displayed at the top of summary screen, informing player about current score",
+    "type": "text",
+    "placeholders": {}
+  },
+  "summaryBack": "Graj ponownie",
+  "@summaryBack": {
+    "description": "Button which takes the player from summary screen to category listing",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsHeader": "Ustawienia",
+  "@settingsHeader": {
+    "description": "Header displayed at the top of settings screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsCamera": "Kamera",
+  "@settingsCamera": {
+    "description": "Label for toggling camera support",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsCameraHint": "Tymczasowe zdjęcia podczas rozgrywki",
+      "@settingsCameraHint": {
+        "description": "Hint for toggling camera support",
+        "type": "text",
+        "placeholders": {}
+      },
+  "settingsSpeech": "Mikrofon",
+    "@settingsSpeech": {
+      "description": "Label for toggling speech recognition support",
+      "type": "text",
+      "placeholders": {}
+    },
+    "settingsSpeechHint": "Rozpoznawanie odpowiedzi podczas rozgrywki",
+    "@settingsSpeechHint": {
+      "description": "Hint for toggling speech recognition support",
+      "type": "text",
+      "placeholders": {}
+    },
+  "settingsAccelerometer": "Akcelerometr",
+  "@settingsAccelerometer": {
+    "description": "Label for toggling accelerometer support",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsAccelerometerHint": "Przechyl telefon w dół gdy odgadniesz hasło",
+    "@settingsAccelerometerHint": {
+      "description": "Hint for toggling accelerometer support",
+      "type": "text",
+      "placeholders": {}
+    },
+  "settingsAudio": "Audio",
+  "@settingsAudio": {
+    "description": "Label for toggling audio support",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsLanguage": "Język",
+  "@settingsLanguage": {
+    "description": "Label for changing game language",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsPrivacyPolicy": "Polityka prywatności",
+  "@settingsPrivacyPolicy": {
+    "description": "Label for opening privacy policy",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsStartTutorial": "Jak grać?",
+    "@settingsStartTutorial": {
+      "description": "Label for opening tutorial",
+      "type": "text",
+      "placeholders": {}
+    },
+  "gameTime": "Czas gry",
+  "@gameTime": {
+    "description": "Label for game time slider",
+    "type": "text",
+    "placeholders": {}
+  },
+  "categoryItemQuestionsCount": "{count} haseł",
+    "@categoryItemQuestionsCount": {
+      "description": "Metadata showing total count of questions in category",
+      "type": "text",
+      "placeholders": {
+        "count": {}
+      }
+    },
+  "emptyFavorites": "Dodaj ulubione kategorie aby móc je szybko odnaleźć.",
+    "@emptyFavorites": {
+      "description": "Hint shown when there are no favorites defined",
+      "type": "text",
+      "placeholders": {}
+    }
+}

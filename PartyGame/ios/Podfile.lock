@@ -1,0 +1,224 @@
+PODS:
+  - audioplayers (0.0.1):
+    - Flutter
+  - camera (0.0.1):
+    - Flutter
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - esys_flutter_share (0.0.1):
+    - Flutter
+  - Fabric (1.9.0)
+  - Firebase/AdMob (6.0.0):
+    - Firebase/CoreOnly
+    - Google-Mobile-Ads-SDK (~> 7.43)
+  - Firebase/Analytics (6.0.0):
+    - Firebase/Core
+  - Firebase/Core (6.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.0.0)
+  - Firebase/CoreOnly (6.0.0):
+    - FirebaseCore (= 6.0.0)
+  - Firebase/Messaging (6.0.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.0.0)
+  - firebase_admob (0.0.1):
+    - Firebase/AdMob
+    - Firebase/Core
+    - Flutter
+  - firebase_analytics (0.0.1):
+    - Firebase/Analytics (~> 6.0)
+    - Firebase/Core
+    - Flutter
+  - firebase_crashlytics (0.0.1):
+    - Crashlytics
+    - Fabric
+    - Firebase/Core
+    - Flutter
+  - firebase_messaging (0.0.1):
+    - Firebase/Core
+    - Firebase/Messaging
+    - Flutter
+  - FirebaseAnalytics (6.0.0):
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleAppMeasurement (= 6.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (6.0.0):
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Logger (~> 6.0)
+  - FirebaseInstanceID (4.0.0):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.0.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 6.0)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/Reachability (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - Protobuf (~> 3.1)
+  - Flutter (1.0.0)
+  - Google-Mobile-Ads-SDK (7.43.1):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (6.0.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.0.0)
+  - GoogleUtilities/Logger (6.0.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.0.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.0.0)"
+  - GoogleUtilities/Reachability (6.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.0.0):
+    - GoogleUtilities/Logger
+  - launch_review (0.0.1):
+    - Flutter
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - permission_handler (3.2.2):
+    - Flutter
+  - Protobuf (3.7.0)
+  - screen (0.0.1):
+    - Flutter
+  - sensors (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - url_launcher (0.0.1):
+    - Flutter
+  - vibration (1.2.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - esys_flutter_share (from `.symlinks/plugins/esys_flutter_share/ios`)
+  - firebase_admob (from `.symlinks/plugins/firebase_admob/ios`)
+  - firebase_analytics (from `.symlinks/plugins/firebase_analytics/ios`)
+  - firebase_crashlytics (from `.symlinks/plugins/firebase_crashlytics/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - launch_review (from `.symlinks/plugins/launch_review/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - screen (from `.symlinks/plugins/screen/ios`)
+  - sensors (from `.symlinks/plugins/sensors/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - vibration (from `.symlinks/plugins/vibration/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - Protobuf
+
+EXTERNAL SOURCES:
+  audioplayers:
+    :path: ".symlinks/plugins/audioplayers/ios"
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  esys_flutter_share:
+    :path: ".symlinks/plugins/esys_flutter_share/ios"
+  firebase_admob:
+    :path: ".symlinks/plugins/firebase_admob/ios"
+  firebase_analytics:
+    :path: ".symlinks/plugins/firebase_analytics/ios"
+  firebase_crashlytics:
+    :path: ".symlinks/plugins/firebase_crashlytics/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  launch_review:
+    :path: ".symlinks/plugins/launch_review/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  screen:
+    :path: ".symlinks/plugins/screen/ios"
+  sensors:
+    :path: ".symlinks/plugins/sensors/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  vibration:
+    :path: ".symlinks/plugins/vibration/ios"
+
+SPEC CHECKSUMS:
+  audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
+  camera: d56ad165545ae5a0ffb892376033760a969c68c8
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  esys_flutter_share: 403498dab005b36ce1f8d7aff377e81f0621b0b4
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
+  firebase_admob: d8c2bc95b5e0069406280ce6adb816cdee6aa595
+  firebase_analytics: 32e04b548ece5c04c9798cbf393a7884f0b21951
+  firebase_crashlytics: 6b8e7358dbac1359c1e29e0796adf48eddef99c9
+  firebase_messaging: 74e9d76acfbdff96a3f9f570f463a2b2bc784bf5
+  FirebaseAnalytics: 1743c5f4de3687d0745709dfdc4b1dea1484f44c
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: e38f025287b413255a53acc1945d048a112047f7
+  FirebaseInstanceID: 0e0348a3c00a734fa376a070f5ad4533ad975cb5
+  FirebaseMessaging: c796d50864dc822a3c06c9c1c1444b37732b795b
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  Google-Mobile-Ads-SDK: 9d3474acb70a6c12bfa69c9fe1ac28d7de8b9be9
+  GoogleAppMeasurement: 7f028ea162b72c8f326daec74afc95d94f7a47d6
+  GoogleUtilities: f1faafc033ea203adf1783ce00af455bb99d0e5b
+  launch_review: 75d5a956ba8eaa493e9c9d4bf4c05e505e8d5ed0
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  package_info: 78cabb3c322943c55d39676f4a5bfc748c01d055
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  permission_handler: d59f41439f5bc6c4d1005f3355e98f05ddc68ece
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  screen: abd91ca7bf3426e1cc3646d27e9b2358d6bf07b0
+  sensors: b5c565b45237fd2df1c347c14bf5ceeffdb7a2be
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+  vibration: a8387e17a6363f1a8808744abd0e7f1f51e448a8
+
+PODFILE CHECKSUM: 484685406c3515ab4964389a7eb3b89322a351c6
+
+COCOAPODS: 1.7.5
