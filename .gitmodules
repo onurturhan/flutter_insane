@@ -1,0 +1,507 @@
+[submodule "SpotifyClone"]
+	path = SpotifyClone
+	url = git@github.com:MarcusNg/flutter_spotify_ui.git
+[submodule "InstagramClone"]
+	path = InstagramClone
+	url = git@github.com:RivaanRanawat/instagram-flutter-clone.git
+[submodule "E-CommerceApp"]
+	path = E-CommerceApp
+	url = git@github.com:abuanwar072/E-commerce-App-UI-Flutter.git
+[submodule "SkypeClone"]
+	path = SkypeClone
+	url = git@github.com:Ronak99/Skype-Clone.git
+[submodule "InKino"]
+	path = InKino
+	url = git@github.com:roughike/inKino.git
+[submodule "StackOverFlow"]
+	path = StackOverFlow
+	url = git@github.com:iampawan/FlutterStackOverflowApp.git
+[submodule "Examples"]
+	path = Examples
+	url = git@github.com:nisrulz/flutter-examples.git
+[submodule "PodcastPlayer"]
+	path = PodcastPlayer
+	url = git@github.com:stonega/tsacdop.git
+[submodule "PinterestClone"]
+	path = PinterestClone
+	url = git@github.com:Hash-Studios/Prism.git
+[submodule "Pokemon"]
+	path = Pokemon
+	url = git@github.com:hungps/flutter_pokedex.git
+[submodule "CryptoApp"]
+	path = CryptoApp
+	url = git@github.com:iampawan/CryptoApp.git
+[submodule "GameStore"]
+	path = GameStore
+	url = git@github.com:searchy2/FlutterGames.git
+[submodule "NutritionApp"]
+	path = NutritionApp
+	url = git@github.com:rajayogan/flutterui-curveddesigns.git
+[submodule "UberClone"]
+	path = UberClone
+	url = git@github.com:Santos-Enoque/uber_clone_with_flutter.git
+[submodule "DevFest"]
+	path = DevFest
+	url = git@github.com:iampawan/GDG-DevFest-App.git
+[submodule "FurnitureApp"]
+	path = FurnitureApp
+	url = git@github.com:abuanwar072/Furniture-App-UI-2-Flutter.git
+[submodule "NewsAggregator"]
+	path = NewsAggregator
+	url = git@github.com:theankurkedia/newsbuzz.git
+[submodule "WordPress"]
+	path = WordPress
+	url = git@github.com:mcyos118/wordPress-flutter.git
+[submodule "PortfolioWeb"]
+	path = PortfolioWeb
+	url = git@github.com:abuanwar072/Protfolio-Website-Flutter-Web.git
+[submodule "BookSearch"]
+	path = BookSearch
+	url = git@github.com:Norbert515/BookSearch.git
+[submodule "HangmanGame"]
+	path = HangmanGame
+	url = git@github.com:tavasolireza/Hangman-Game-Flutter.git
+[submodule "GmailClone"]
+	path = GmailClone
+	url = git@github.com:rodydavis/gmail_clone.git
+[submodule "EmojiUI"]
+	path = EmojiUI
+	url = git@github.com:rajayogan/FlutterUI---Emojis.git
+[submodule "FacebookClone"]
+	path = FacebookClone
+	url = git@github.com:MarcusNg/flutter_facebook_responsive_ui.git
+[submodule "Fluttergram"]
+	path = Fluttergram
+	url = git@github.com:mdanics/fluttergram.git
+[submodule "VideoStream"]
+	path = VideoStream
+	url = git@github.com:Hritik-Chaurasia/Lavender.git
+[submodule "NetflixUI"]
+	path = NetflixUI
+	url = git@github.com:MarcusNg/flutter_netflix_responsive_ui.git
+[submodule "TrinityCollege"]
+	path = TrinityCollege
+	url = git@github.com:matthewtory/trinity-orientation-2018.git
+[submodule "TikTokUI"]
+	path = TikTokUI
+	url = git@github.com:FilledStacks/flutter-tutorials.git
+[submodule "ChatApp"]
+	path = ChatApp
+	url = git@github.com:MarcusNg/flutter_chat_ui.git
+[submodule "SwarmGame"]
+	path = SwarmGame
+	url = git@github.com:MarcusNg/flutter_swarm_game.git
+[submodule "Speech2TextApp"]
+	path = Speech2TextApp
+	url = git@github.com:MarcusNg/flutter_voice.git
+[submodule "CrushGame"]
+	path = CrushGame
+	url = git@github.com:boeledi/flutter_crush.git
+[submodule "WhatsAppClone"]
+	path = WhatsAppClone
+	url = git@github.com:iampawan/FlutterWhatsAppClone.git
+[submodule "ClubHouseClone"]
+	path = ClubHouseClone
+	url = git@github.com:MarcusNg/flutter_clubhouse_ui.git
+[submodule "SpaceXGo"]
+	path = SpaceXGo
+	url = git@github.com:jesusrp98/spacex-go.git
+[submodule "TetrisGame"]
+	path = TetrisGame
+	url = git@github.com:boyan01/flutter-tetris.git
+[submodule "Widgets"]
+	path = Widgets
+	url = git@github.com:mafreud/proximity.git
+[submodule "TicTacToeGame"]
+	path = TicTacToeGame
+	url = git@github.com:iampawan/FlutterTicTacToe.git
+[submodule "SolitaireGame"]
+	path = SolitaireGame
+	url = git@github.com:deven98/FlutterSolitaire.git
+[submodule "PocketPiano"]
+	path = PocketPiano
+	url = git@github.com:rodydavis/flutter_piano.git
+[submodule "MessengerApp"]
+	path = MessengerApp
+	url = git@github.com:janoodleFTW/timy-messenger.git
+[submodule "PlanetEducation"]
+	path = PlanetEducation
+	url = git@github.com:sergiandreplace/flutter_planets_tutorial.git
+[submodule "E-CommerceApp2"]
+	path = E-CommerceApp2
+	url = git@github.com:abuanwar072/E-commerce-Complete-Flutter-UI.git
+[submodule "CleanLoginUI"]
+	path = CleanLoginUI
+	url = git@github.com:putraxor/flutter-login-ui.git
+[submodule "MusicPlayerApp"]
+	path = MusicPlayerApp
+	url = git@github.com:iampawan/Flutter-Music-Player.git
+[submodule "RecipeApp"]
+	path = RecipeApp
+	url = git@github.com:abuanwar072/Recipe-App---Flutter-UI.git
+[submodule "WhatAboutYou"]
+	path = WhatAboutYou
+	url = git@github.com:MDSADABWASIM/You.git
+[submodule "MeditationApp"]
+	path = MeditationApp
+	url = git@github.com:abuanwar072/Meditation-App.git
+[submodule "WorkoutTimerApp"]
+	path = WorkoutTimerApp
+	url = git@github.com:Soham-Rakhunde/workout_timer.git
+[submodule "TravelApp"]
+	path = TravelApp
+	url = git@github.com:abuanwar072/Travel-App-UI-using-Flutter.git
+[submodule "WeightTracker"]
+	path = WeightTracker
+	url = git@github.com:MSzalek-Mobile/weight_tracker.git
+[submodule "MovieInfoApp"]
+	path = MovieInfoApp
+	url = git@github.com:abuanwar072/Movie-Info---Flutter-UI.git
+[submodule "BeerMeup"]
+	path = BeerMeup
+	url = git@github.com:benoitletondor/Beer-Me-Up.git
+[submodule "LiveLocShareApp"]
+	path = LiveLocShareApp
+	url = git@github.com:Samaritan1011001/Trovami.git
+[submodule "RubikCubeSolver"]
+	path = RubikCubeSolver
+	url = git@github.com:brinesoftwares/Flutter-AI-Rubik-cube-Solver.git
+[submodule "FoodOrderingApp"]
+	path = FoodOrderingApp
+	url = git@github.com:abuanwar072/Food-Ordering-App.git
+[submodule "CinematicApp"]
+	path = CinematicApp
+	url = git@github.com:aaronoe/FlutterCinematic.git
+[submodule "SignatureView"]
+	path = SignatureView
+	url = git@github.com:iampawan/fluttersignatureview.git
+[submodule "Game2048"]
+	path = Game2048
+	url = git@github.com:anuranBarman/2048.git
+[submodule "PlantAppUI"]
+	path = PlantAppUI
+	url = git@github.com:abuanwar072/Plant-App-Flutter-UI.git
+[submodule "SkyFeed"]
+	path = SkyFeed
+	url = git@github.com:redsolver/skyfeed.git
+[submodule "InShortsClone"]
+	path = InShortsClone
+	url = git@github.com:imSanjaySoni/Inshorts-Clone-The-News-App.git
+[submodule "ToughestApp"]
+	path = ToughestApp
+	url = git@github.com:MDSADABWASIM/Toughest.git
+[submodule "GoogleKeepClone"]
+	path = GoogleKeepClone
+	url = git@github.com:GitJournal/GitJournal.git
+[submodule "FourInARowGame"]
+	path = FourInARowGame
+	url = git@github.com:ffactory-ofcl/fourinarow-app.git
+[submodule "Samples"]
+	path = Samples
+	url = git@github.com:flutter/samples.git
+[submodule "eBookApp"]
+	path = eBookApp
+	url = git@github.com:JideGuru/FlutterEbookApp.git
+[submodule "FoodyBite"]
+	path = FoodyBite
+	url = git@github.com:JideGuru/FlutterFoodybite.git
+[submodule "BasicWidgets"]
+	path = BasicWidgets
+	url = git@github.com:PoojaB26/FlutterBasicWidgets.git
+[submodule "GorgeousLogin"]
+	path = GorgeousLogin
+	url = git@github.com:huextrat/TheGorgeousLogin.git
+[submodule "CalendarApp"]
+	path = CalendarApp
+	url = git@github.com:solutelabs/horizontal_calendar.git
+[submodule "UITemplates"]
+	path = UITemplates
+	url = git@github.com:mitesh77/Best-Flutter-UI-Templates.git
+[submodule "FirebasePlugins"]
+	path = FirebasePlugins
+	url = git@github.com:firebase/flutterfire.git
+[submodule "UIChallenges"]
+	path = UIChallenges
+	url = git@github.com:lohanidamodar/flutter_ui_challenges.git
+[submodule "UIScreens"]
+	path = UIScreens
+	url = git@github.com:samarthagarwal/FlutterScreens.git
+[submodule "BlackHole"]
+	path = BlackHole
+	url = git@github.com:Sangwan5688/BlackHole.git
+[submodule "E-CommerceApp3"]
+	path = E-CommerceApp3
+	url = git@github.com:TheAlphamerc/flutter_ecommerce_app.git
+[submodule "TwitterClone"]
+	path = TwitterClone
+	url = git@github.com:TheAlphamerc/flutter_twitter_clone.git
+[submodule "AuthPass"]
+	path = AuthPass
+	url = git@github.com:authpass/authpass.git
+[submodule "GitTouch"]
+	path = GitTouch
+	url = git@github.com:git-touch/git-touch.git
+[submodule "LiquidSwipe"]
+	path = LiquidSwipe
+	url = git@github.com:iamSahdeep/liquid_swipe_flutter.git
+[submodule "FindSeat"]
+	path = FindSeat
+	url = git@github.com:KhoaSuperman/findseat.git
+[submodule "ThreeInOne"]
+	path = ThreeInOne
+	url = git@github.com:hellobike/flutter_thrio.git
+[submodule "FoodDeliveryApp"]
+	path = FoodDeliveryApp
+	url = git@github.com:Tarikul711/flutter-food-delivery-app-ui.git
+[submodule "WhirlPool"]
+	path = WhirlPool
+	url = git@github.com:pawlik92/flutter_whirlpool.git
+[submodule "SmartCourse"]
+	path = SmartCourse
+	url = git@github.com:TheAlphamerc/flutter_smart_course.git
+[submodule "RestaurantApp"]
+	path = RestaurantApp
+	url = git@github.com:atornel/RestaurantAppUIKit.git
+[submodule "TodoList"]
+	path = TodoList
+	url = git@github.com:LiveLikeCounter/Flutter-Todolist.git
+[submodule "SwiggyUI"]
+	path = SwiggyUI
+	url = git@github.com:vinothvino42/SwiggyUI.git
+[submodule "Wooble"]
+	path = Wooble
+	url = git@github.com:CharlyKeleb/SocialMedia-App.git
+[submodule "MusicPlayerApp2"]
+	path = MusicPlayerApp2
+	url = git@github.com:amangautam1/flutter-musicplayer.git
+[submodule "eSchoolApp"]
+	path = eSchoolApp
+	url = git@github.com:ketanchoyal/Our-E-School.git
+[submodule "FileX"]
+	path = FileX
+	url = git@github.com:JideGuru/FileX.git
+[submodule "Effects"]
+	path = Effects
+	url = git@github.com:HitenDev/flutter_effects.git
+[submodule "UISimpleKit"]
+	path = UISimpleKit
+	url = git@github.com:bukunmialuko/flutter_ui_kit_obkm.git
+[submodule "UIWallet"]
+	path = UIWallet
+	url = git@github.com:kalismeras61/flutter_wallet_ui.git
+[submodule "ContraKit"]
+	path = ContraKit
+	url = git@github.com:nathansdev/ContraFlutterKit.git
+[submodule "TaxiApp"]
+	path = TaxiApp
+	url = git@github.com:OpenConsultingGroup/Taxi-App.git
+[submodule "WeatherApp"]
+	path = WeatherApp
+	url = git@github.com:jhomlala/feather.git
+[submodule "SampleProjects"]
+	path = SampleProjects
+	url = git@github.com:brocodev/flutter_projects.git
+[submodule "CreditCardInput"]
+	path = CreditCardInput
+	url = git@github.com:Origogi/Flutter-Credit-Card-Input-Form.git
+[submodule "QRCodeScanner"]
+	path = QRCodeScanner
+	url = git@github.com:leyan95/qrcode_scanner.git
+[submodule "NoteTakingApp"]
+	path = NoteTakingApp
+	url = git@github.com:bimsina/notes-app.git
+[submodule "TimerApp"]
+	path = TimerApp
+	url = git@github.com:pedromassango/xtimer-flutter-app.git
+[submodule "PaymentApp"]
+	path = PaymentApp
+	url = git@github.com:longhoang2984/flutter_payment_app_ui.git
+[submodule "WallpaperApp"]
+	path = WallpaperApp
+	url = git@github.com:bimsina/wallpaper.git
+[submodule "WhatsAppClone2"]
+	path = WhatsAppClone2
+	url = git@github.com:DevStack06/Whatsapp-Clone-Flutter.git
+[submodule "FirebaseApp"]
+	path = FirebaseApp
+	url = git@github.com:dvmjoshi/flutter_firebase.git
+[submodule "BabyNameApp"]
+	path = BabyNameApp
+	url = git@github.com:hamaluik/nomdebebe.git
+[submodule "QuizApp"]
+	path = QuizApp
+	url = git@github.com:lohanidamodar/flutter_opentrivia.git
+[submodule "MatineeApp"]
+	path = MatineeApp
+	url = git@github.com:bimsina/Matinee-Flutter.git
+[submodule "FireBaseStarter"]
+	path = FireBaseStarter
+	url = git@github.com:lohanidamodar/flutter_firebase_starter.git
+[submodule "MotionTabBar"]
+	path = MotionTabBar
+	url = git@github.com:therezacuet/Motion-Tab-Bar.git
+[submodule "TaskApp"]
+	path = TaskApp
+	url = git@github.com:HathTech/Flutter-Task-App.git
+[submodule "LightDarkMode"]
+	path = LightDarkMode
+	url = git@github.com:shubhamhackz/light_dark_toggle.git
+[submodule "HackerNews"]
+	path = HackerNews
+	url = git@github.com:Livinglist/Hacki.git
+[submodule "ParallaxScroll"]
+	path = ParallaxScroll
+	url = git@github.com:pawlik92/flutter_parallax_scroll.git
+[submodule "UIDesigns"]
+	path = UIDesigns
+	url = git@github.com:hackerhgl/flutter-ui-designs.git
+[submodule "TinderRedesign"]
+	path = TinderRedesign
+	url = git@github.com:theindianappguy/TinderGoldRedesign.git
+[submodule "CineReel"]
+	path = CineReel
+	url = git@github.com:kserko/CineReel.git
+[submodule "PetShop"]
+	path = PetShop
+	url = git@github.com:thenifemi/PetShop.git
+[submodule "MetaFlutter"]
+	path = MetaFlutter
+	url = git@github.com:deven98/MetaFlutter.git
+[submodule "YoutubeApp"]
+	path = YoutubeApp
+	url = git@github.com:deven98/YouTubeFlutter.git
+[submodule "AudioBooks"]
+	path = AudioBooks
+	url = git@github.com:lohanidamodar/flutter_audiobooks_app.git
+[submodule "DeveloperFolio"]
+	path = DeveloperFolio
+	url = git@github.com:naveenjujaray/DeveloperFolio.git
+[submodule "FirebaseApp2"]
+	path = FirebaseApp2
+	url = git@github.com:ionicfirebaseapp/flutter-app.git
+[submodule "PeopleApp"]
+	path = PeopleApp
+	url = git@github.com:dvmjoshi/people.git
+[submodule "GitConnect"]
+	path = GitConnect
+	url = git@github.com:TheAlphamerc/flutter-GitConnect.git
+[submodule "CleanFlutter"]
+	path = CleanFlutter
+	url = git@github.com:ficiverson/clean-flutter.git
+[submodule "ShotsGame"]
+	path = ShotsGame
+	url = git@github.com:ninest/Shots.git
+[submodule "TapHeroGame"]
+	path = TapHeroGame
+	url = git@github.com:mkiisoft/taphero.git
+[submodule "TissueBoxGame"]
+	path = TissueBoxGame
+	url = git@github.com:rnike/tissuebox.git
+[submodule "PartyGame"]
+	path = PartyGame
+	url = git@github.com:vintage/party_flutter.git
+[submodule "SnakeGame"]
+	path = SnakeGame
+	url = git@github.com:anupcowkur/Snake.git
+[submodule "ColorGame"]
+	path = ColorGame
+	url = git@github.com:zackattack73/Random_Color.git
+[submodule "ColorMatchGame"]
+	path = ColorMatchGame
+	url = git@github.com:naro143/color_matching_game.git
+[submodule "MineSweeperGame"]
+	path = MineSweeperGame
+	url = git@github.com:Cifruktus/FlutterMinesweeper.git
+[submodule "ChessGame"]
+	path = ChessGame
+	url = git@github.com:ritsat/chess_board_game_example.git
+[submodule "WpChessBoard"]
+	path = WpChessBoard
+	url = git@github.com:mono424/wp_chessboard.git
+[submodule "MarioGame"]
+	path = MarioGame
+	url = git@github.com:RuiMiguel/mario-flame.git
+[submodule "DestiniGame"]
+	path = DestiniGame
+	url = git@github.com:berkkl/Destini.git
+[submodule "CardGame"]
+	path = CardGame
+	url = git@github.com:tylersavery/flutter-cardgame.git
+[submodule "AnimationLibrary"]
+	path = AnimationLibrary
+	url = git@github.com:flutterkit/zerker.git
+[submodule "DemoGame"]
+	path = DemoGame
+	url = git@github.com:ecklf/flutters.git
+[submodule "PairGame"]
+	path = PairGame
+	url = git@github.com:frideosapps/pair_game.git
+[submodule "PacManGame"]
+	path = PacManGame
+	url = git@github.com:noob-hu-yaar/PacMan-mini.git
+[submodule "QuizApp2"]
+	path = QuizApp2
+	url = git@github.com:frideosapps/trivia_example.git
+[submodule "ReactiveBleLib"]
+	path = ReactiveBleLib
+	url = git@github.com:PhilipsHue/flutter_reactive_ble.git
+[submodule "AmazonClone"]
+	path = AmazonClone
+	url = git@github.com:RivaanRanawat/flutter-amazon-clone-tutorial.git
+[submodule "LocalNotification"]
+	path = LocalNotification
+	url = git@github.com:MaikuB/flutter_local_notifications.git
+[submodule "EditorApp"]
+	path = EditorApp
+	url = git@github.com:superlistapp/super_editor.git
+[submodule "GoogleMapsApp"]
+	path = GoogleMapsApp
+	url = git@github.com:flutter-mapbox-gl/maps.git
+[submodule "FilePickerApp"]
+	path = FilePickerApp
+	url = git@github.com:miguelpruivo/flutter_file_picker.git
+[submodule "ChartApp"]
+	path = ChartApp
+	url = git@github.com:imaNNeoFighT/fl_chart.git
+[submodule "QRCodeScannerApp"]
+	path = QRCodeScannerApp
+	url = git@github.com:juliuscanute/qr_code_scanner.git
+[submodule "FluentUIApp"]
+	path = FluentUIApp
+	url = git@github.com:bdlukaa/fluent_ui.git
+[submodule "CalendarWidget"]
+	path = CalendarWidget
+	url = git@github.com:aleksanderwozniak/table_calendar.git
+[submodule "MusicPlayerApp3"]
+	path = MusicPlayerApp3
+	url = git@github.com:gokadzev/Musify.git
+[submodule "QRCodeScannerApp2"]
+	path = QRCodeScannerApp2
+	url = git@github.com:juliansteenbakker/mobile_scanner.git
+[submodule "SpotifyClient"]
+	path = SpotifyClient
+	url = git@github.com:KRTirtho/spotube.git
+[submodule "InvoiceApp"]
+	path = InvoiceApp
+	url = git@github.com:invoiceninja/invoiceninja.git
+[submodule "ExpenseMngApp"]
+	path = ExpenseMngApp
+	url = git@github.com:afgprogrammer/flutter_expense_manager.git
+[submodule "ExpenseMngApp2"]
+	path = ExpenseMngApp2
+	url = git@github.com:AdrianLopezGue/daruma-frontend.git
+[submodule "ProfileUIApp"]
+	path = ProfileUIApp
+	url = git@github.com:debaghosh/Flutter-Profile-UI.git
+[submodule "InvoicePdfGenApp"]
+	path = InvoicePdfGenApp
+	url = git@github.com:sabikrahat/invoice_pdf_generate.git
+[submodule "FirebasePhotoApp"]
+	path = FirebasePhotoApp
+	url = git@github.com:Amanullahgit/Photo-App-Project-Flutter.git
+[submodule "MPTicTacToeApp"]
+	path = MPTicTacToeApp
+	url = git@github.com:AadrianLeo/Tictactoe-Multiplayer-Game.git
+[submodule "KidsLearnProgApp"]
+	path = KidsLearnProgApp
+	url = git@github.com:fairfield-programming/playground.git
