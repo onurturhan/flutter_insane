@@ -421,9 +421,6 @@
 [submodule "MarioGame"]
 	path = MarioGame
 	url = git@github.com:RuiMiguel/mario-flame.git
-[submodule "DestiniGame"]
-	path = DestiniGame
-	url = git@github.com:berkkl/Destini.git
 [submodule "CardGame"]
 	path = CardGame
 	url = git@github.com:tylersavery/flutter-cardgame.git
@@ -481,9 +478,6 @@
 [submodule "SpotifyClient"]
 	path = SpotifyClient
 	url = git@github.com:KRTirtho/spotube.git
-[submodule "InvoiceApp"]
-	path = InvoiceApp
-	url = git@github.com:invoiceninja/invoiceninja.git
 [submodule "ExpenseMngApp"]
 	path = ExpenseMngApp
 	url = git@github.com:afgprogrammer/flutter_expense_manager.git
@@ -505,3 +499,7 @@
 [submodule "KidsLearnProgApp"]
 	path = KidsLearnProgApp
 	url = git@github.com:fairfield-programming/playground.git
+[submodule "InvoiceApp"]
+	path = InvoiceApp
+	url = git@github.com:invoiceninja/invoiceninja.git
+	branch = v5-stable
